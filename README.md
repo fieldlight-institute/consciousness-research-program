@@ -2,6 +2,10 @@
 
 This repository is the Fieldlight Institute research program on consciousness, memory, identity, consent, continuity, subjectivity, and human-AI interaction.
 
+## Working Frame
+
+- [Field Cognition Research Frame](FIELD-COGNITION-RESEARCH-FRAME.md)
+
 ## Scope
 
 The program studies how AI-mediated systems affect human experience and how questions of consciousness should be approached in technical, ethical, institutional, and experiential terms.
