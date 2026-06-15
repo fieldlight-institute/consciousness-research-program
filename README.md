@@ -27,3 +27,7 @@ What research practices, concepts, and institutions are needed when AI systems p
 ## Relationship To Fieldlight
 
 This pillar sits beside intelligence infrastructure. Together, they ask how AI systems reshape both the material world that supports intelligence and the human world transformed by it.
+
+## Copyright And Use
+
+This repository is public for reading and citation, but it is not open-licensed by default. See [Copyright And Use](COPYRIGHT.md).
