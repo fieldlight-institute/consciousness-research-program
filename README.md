@@ -6,6 +6,10 @@ This repository is the Fieldlight Institute research program on consciousness, m
 
 - [Field Cognition Research Frame](FIELD-COGNITION-RESEARCH-FRAME.md)
 
+## Registered Working Hypotheses
+
+- [Cardiac Field and Social Interaction](CARDIAC-FIELD-SOCIAL-INTERACTION-WORKING-HYPOTHESIS.md) — a layered, falsifiable claim stack separating established cardiac measurement, context-dependent social covariance, and the still-open question of whether magnetic-field features add explanatory value.
+
 ## Scope
 
 The program studies how AI-mediated systems affect human experience and how questions of consciousness should be approached in technical, ethical, institutional, and experiential terms.

@@ -187,6 +187,12 @@ The goal is not to prove a preferred metaphysics.
 
 The goal is to make the phenomena observable enough to test, refine, dispute, and govern.
 
+## Registered Working Hypotheses
+
+The frame can generate hypotheses, but each hypothesis must be decomposed into claims with independent evidence thresholds.
+
+- [Cardiac Field and Social Interaction](CARDIAC-FIELD-SOCIAL-INTERACTION-WORKING-HYPOTHESIS.md) separates four questions: whether internal state alters cardiac dynamics; whether the resulting magnetic field is measurable; whether cardiac dynamics covary with social interaction; and whether magnetic-field measurements add information after ordinary physiological, behavioral, sensory, and environmental pathways are controlled. A stronger claim of direct field mediation remains separate and unsupported.
+
 ## Why This Matters
 
 If consciousness is treated only as private interiority, then the relational field remains ungoverned.
