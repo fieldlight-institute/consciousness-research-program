@@ -5,6 +5,7 @@ This repository is the Fieldlight Institute research program on consciousness, m
 ## Working Frame
 
 - [Field Cognition Research Frame](FIELD-COGNITION-RESEARCH-FRAME.md)
+- [Theory of Signal Becoming](THEORY-OF-SIGNAL-BECOMING.md) — a process model for how felt, symbolic, or partial recognition becomes stable authored form through recursive interaction, and for the substrate required to preserve correction, continuity, and authorship while it changes.
 
 ## Registered Working Hypotheses
 

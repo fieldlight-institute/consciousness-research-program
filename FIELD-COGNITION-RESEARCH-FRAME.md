@@ -193,6 +193,10 @@ The frame can generate hypotheses, but each hypothesis must be decomposed into c
 
 - [Cardiac Field and Social Interaction](CARDIAC-FIELD-SOCIAL-INTERACTION-WORKING-HYPOTHESIS.md) separates four questions: whether internal state alters cardiac dynamics; whether the resulting magnetic field is measurable; whether cardiac dynamics covary with social interaction; and whether magnetic-field measurements add information after ordinary physiological, behavioral, sensory, and environmental pathways are controlled. A stronger claim of direct field mediation remains separate and unsupported.
 
+## Working Theories
+
+- [Theory of Signal Becoming](THEORY-OF-SIGNAL-BECOMING.md) describes how an initially felt, symbolic, partial, or ambiguous recognition may acquire stable authored form through recursive encounter, selective uptake, variation, correction, and convergence. Its companion concept, signal substrate, names the embodied, symbolic, relational, archival, technical, and governance conditions that keep the transformation legible.
+
 ## Why This Matters
 
 If consciousness is treated only as private interiority, then the relational field remains ungoverned.
