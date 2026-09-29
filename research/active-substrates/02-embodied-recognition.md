@@ -30,3 +30,11 @@ Choose the actual task; operationalize explanation scoring; decide sample size a
 ## Outputs
 
 A literature comparison, prospective study protocol, participant-facing materials, analysis plan and subsequent report. Record design changes and unsuccessful predictions. Do not make the archive's author solely responsible for supplying confirmatory examples.
+
+## September 29 revision — preserve the source hypothesis
+
+The author's source proposes intentional pattern production: conceived pattern → embodied organization → changed interaction → returned response. It also proposes the human field itself as a sensing interface, with bodily processes as transduction and cognition as interpretation and intentional coordination. These are retained hypotheses, not findings. The narrower detection-before-explanation task is one investigation within this scope, not a replacement for it.
+
+An embodied-pattern study must define the pattern operationally (for example, specified attention, posture, movement and breathing conditions), use an appropriate comparison, and separately measure discrimination, report and behavior. Improvements attributable to ordinary sensory, attentional or motor pathways are meaningful outcomes; they do not establish an additional field channel. The field-interface hypothesis requires its own identifiable input/output and controlled coupling test before a mechanism can be attributed.
+
+The question of cross-system coordination also remains: what pattern can one participant deliberately produce that another can detect and transform through a specified channel? The relevant outcome includes a receiver's independent contribution, not only synchronization or compliance. No cross-species or physical-field experiment is specified or authorized here.
