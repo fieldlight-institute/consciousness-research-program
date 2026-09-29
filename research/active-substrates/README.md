@@ -16,7 +16,7 @@ This strand extends [Theory of Signal Becoming](../../THEORY-OF-SIGNAL-BECOMING.
 | AS-02 | [Embodied recognition and consciousness](02-embodied-recognition.md) | Research plan v0.1 | Choose a bounded prospective phenomenon and measurement partner |
 | AS-03 | [Material computation](03-material-computation.md) | Research plan v0.1 | Establish simulation baseline, then select a material for its measurable properties |
 
-[Sources and conceptual lineage](sources.md) · [Decision and implementation record](decision-log.md)
+[Argument, evidence, and discriminating questions](argument-and-evidence.md) · [Sources and conceptual lineage](sources.md) · [Decision and implementation record](decision-log.md)
 
 The essay *Fascia as Infrastructure* is being developed separately as an author-review draft. This repository retains research plans through revision, implementation and results. Planning documents must not disappear when code arrives: update their status, record deviations, and link immutable study versions to runs. Plans are public research artifacts; private source notes and participant records remain outside this repository.
 

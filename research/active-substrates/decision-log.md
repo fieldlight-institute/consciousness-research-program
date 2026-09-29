@@ -17,3 +17,7 @@ For every consequential revision: date, reason, affected hypothesis or endpoint,
 ## September 29, 2026 — Source-scope correction
 
 Author feedback on the companion essay identified insufficient incorporation of the source notes. The essay was rewritten around embodiment as intentional pattern production, the proposed human field as interface, material-specific computation, and voluntary coordination. AS-02 now explicitly retains those hypotheses so the preliminary detection task cannot silently substitute for the broader question. Study execution remains pending; no outcomes or mechanisms have been established.
+
+## September 29, 2026 — Argument development
+
+Added an argument and evidence map connecting the author’s actual propositions to tissue research, material computation, ephaptic coupling, a field theory of consciousness, and participatory sense-making. The map specifies what each source contributes and what the proposed research must establish. AS-02 retains intentional pattern production and the field-interface hypothesis rather than substituting a generic detection task. Companion essay draft 4 is private and pending author review. No studies have been run.

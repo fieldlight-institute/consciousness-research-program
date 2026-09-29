@@ -38,3 +38,7 @@ The author's source proposes intentional pattern production: conceived pattern â
 An embodied-pattern study must define the pattern operationally (for example, specified attention, posture, movement and breathing conditions), use an appropriate comparison, and separately measure discrimination, report and behavior. Improvements attributable to ordinary sensory, attentional or motor pathways are meaningful outcomes; they do not establish an additional field channel. The field-interface hypothesis requires its own identifiable input/output and controlled coupling test before a mechanism can be attributed.
 
 The question of cross-system coordination also remains: what pattern can one participant deliberately produce that another can detect and transform through a specified channel? The relevant outcome includes a receiver's independent contribution, not only synchronization or compliance. No cross-species or physical-field experiment is specified or authorized here.
+
+## Argument development
+
+The [argument and evidence map](argument-and-evidence.md) retains the full field-interface and consciousness hypotheses and specifies three linked comparisons: embodied reconstruction, candidate-channel intervention, and conscious access. These extend the prospective design before implementation; they do not report results.
