@@ -36,3 +36,7 @@ This pillar sits beside intelligence infrastructure. Together, they ask how AI s
 ## Copyright And Use
 
 This repository is public for reading and citation, but it is not open-licensed by default. See [Copyright And Use](COPYRIGHT.md).
+
+## Active Research Plans
+
+- [Active Substrates: Memory, Coordination, and Consciousness](research/active-substrates/README.md) — retained plans for computational fascia, embodied recognition, and material computation. Planning v0.1, September 29, 2026; not yet implemented. Specifications, revisions and later run records remain linked through implementation.
