@@ -1,0 +1,42 @@
+{
+  "paired_seeds": 40,
+  "primary": {
+    "mean": 0.03333333333333333,
+    "ci95": [
+      0.008333333333333333,
+      0.06666666666666667
+    ]
+  },
+  "policies": {
+    "stage": {
+      "completed": 2.375,
+      "completion_fraction": 0.7916666666666666,
+      "partial": 0.45,
+      "assignment_checks": 23.3,
+      "rejected_proposals": 6.45,
+      "work_occupancy_ticks": 7.725,
+      "travel_ticks": 1.775
+    },
+    "whole": {
+      "completed": 2.475,
+      "completion_fraction": 0.825,
+      "partial": 0,
+      "assignment_checks": 21.95,
+      "rejected_proposals": 5.25,
+      "work_occupancy_ticks": 7.35,
+      "travel_ticks": 1.275
+    }
+  },
+  "exact_oracles": 40,
+  "oracle_lower_mean": 2.775,
+  "oracle_upper_mean": 2.775,
+  "whole_wins": 4,
+  "ties": 36,
+  "whole_losses": 0,
+  "source_hashes": {
+    "SPECIFICATION.md": "649bc9fb52fbd34046b732601aee111b9a2925cc5b2d4b5845a374c4fe0b5af8",
+    "study.py": "21a8c1a73a80f2b5fc1b5b0753b81fea62fac49403cc303a6bc93a298194f88c",
+    "test_policy.py": "cb403f84747bf28178fb1e0dacc1dc2946edaeb9bf8bd00913dd642565a0e692",
+    "run.py": "b2ebee59ad6fd3451cae58c1c03251cbe8ccfa96e8c967c737cfd3917d69220f"
+  }
+}

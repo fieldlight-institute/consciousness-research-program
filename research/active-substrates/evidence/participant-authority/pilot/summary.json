@@ -1,0 +1,118 @@
+{
+  "conditions": {
+    "R0A0": {
+      "primary_rate": 0.9279598111557933,
+      "completed": 2178.5,
+      "travel": 9247.7,
+      "collisions": 1232.9,
+      "wasted_travel": 1928.3,
+      "coupling_changes": 0,
+      "agreement_records": 3407.8,
+      "window_entries_scanned": 34925.8,
+      "reserved_scan_slots": 41472,
+      "reliability_summaries": 1296,
+      "boundary_read_multiplications": 3882.5,
+      "boundary_deposit_multiplications": 3414.9,
+      "feedback_updates": 13621.6,
+      "relaxations": 144000
+    },
+    "R1A0": {
+      "primary_rate": 0.9279598111557933,
+      "completed": 2178.5,
+      "travel": 9247.7,
+      "collisions": 1232.9,
+      "wasted_travel": 1928.3,
+      "coupling_changes": 0,
+      "agreement_records": 3407.8,
+      "window_entries_scanned": 34925.8,
+      "reserved_scan_slots": 41472,
+      "reliability_summaries": 1296,
+      "boundary_read_multiplications": 3882.5,
+      "boundary_deposit_multiplications": 3414.9,
+      "feedback_updates": 13621.6,
+      "relaxations": 144000
+    },
+    "R0A1": {
+      "primary_rate": 0.9289332625873326,
+      "completed": 2178,
+      "travel": 9244.7,
+      "collisions": 1238.3,
+      "wasted_travel": 1929.8,
+      "coupling_changes": 1268,
+      "agreement_records": 3412.4,
+      "window_entries_scanned": 34925.9,
+      "reserved_scan_slots": 41472,
+      "reliability_summaries": 1296,
+      "boundary_read_multiplications": 3888.3,
+      "boundary_deposit_multiplications": 3419.9,
+      "feedback_updates": 13640,
+      "relaxations": 144000
+    },
+    "R1A1": {
+      "primary_rate": 0.9309451336581276,
+      "completed": 2186,
+      "travel": 9270.2,
+      "collisions": 1235.1,
+      "wasted_travel": 1932,
+      "coupling_changes": 453.6,
+      "agreement_records": 3417.5,
+      "window_entries_scanned": 34930.4,
+      "reserved_scan_slots": 41472,
+      "reliability_summaries": 1296,
+      "boundary_read_multiplications": 3892,
+      "boundary_deposit_multiplications": 3424.7,
+      "feedback_updates": 13660.4,
+      "relaxations": 144000
+    },
+    "Yoked": {
+      "primary_rate": 0.9289809713580719,
+      "completed": 2181.4,
+      "travel": 9264.1,
+      "collisions": 1231.4,
+      "wasted_travel": 1927.7,
+      "coupling_changes": 459.8,
+      "agreement_records": 3409.1,
+      "window_entries_scanned": 34934.7,
+      "reserved_scan_slots": 41472,
+      "reliability_summaries": 1296,
+      "boundary_read_multiplications": 3884.9,
+      "boundary_deposit_multiplications": 3416.4,
+      "feedback_updates": 13626.8,
+      "relaxations": 144000
+    }
+  },
+  "contrasts": {
+    "primary": {
+      "mean": 0.0019641623000556272,
+      "ci95": [
+        -0.0027405734086208946,
+        0.006868788894726641
+      ],
+      "n": 10
+    },
+    "interaction": {
+      "mean": 0.002011871070795035,
+      "ci95": [
+        -0.0017116664218016608,
+        0.005462634911187802
+      ],
+      "n": 10
+    },
+    "adaptive_vs_fixed": {
+      "mean": 0.00298532250233422,
+      "ci95": [
+        -0.00028747242915693193,
+        0.006434334631431393
+      ],
+      "n": 10
+    }
+  },
+  "source_hashes": {
+    "SPECIFICATION.md": "ebb82a12893cdeb6f3d29cd8e306bacfe07e63647332bb51a764388b0c5f430a",
+    "run.py": "38b5a260f17c45b2fb18e214c7d79417305c856c6bc09f19bf52c3b3ecff6a60",
+    "medium.py": "e9b11900a9328526e2988ef35cae16a1229e50a310d934357a75cb65e9d1c80c",
+    "participant.py": "d0e0f717958cc533a1c623130f3f2a6dede5d9e3ba23625764c6b18db6d65d99",
+    "test_participant.py": "01868b335fa9e5a438296518d1cde9394a8b144beb2e35e314c0ea4d0084b82e",
+    "study.py": "b912d4e50a5cce6a99f8f37f195ace28554ea61c027485146df6c9de3ccbf7aa"
+  }
+}

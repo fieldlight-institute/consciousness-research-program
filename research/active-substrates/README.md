@@ -2,7 +2,7 @@
 
 Author: Anni McHenry / Fieldlight Institute  
 Created: September 29, 2026  
-State: Research planning v0.1; not implemented; no results
+State: November 10, 2026 release — retained plans, synthetic implementations and runnable evidence
 
 What if some of the intelligence attributed to participants depends on the active properties of the medium connecting them?
 
@@ -12,13 +12,14 @@ This strand extends [Theory of Signal Becoming](../../THEORY-OF-SIGNAL-BECOMING.
 
 | ID | Plan | State | Next decision |
 |---|---|---|---|
-| AS-01 | [Computational fascia](01-computational-fascia.md) | Study specification v0.1 | Review task, mechanisms and comparisons before implementation |
+| AS-01 | [Computational fascia](01-computational-fascia.md) | Original specification plus bounded implementations | Review retained results and history-dependent response comparison |
 | AS-02 | [Embodied recognition and consciousness](02-embodied-recognition.md) | Research plan v0.1 | Choose a bounded prospective phenomenon and measurement partner |
 | AS-03 | [Material computation](03-material-computation.md) | Research plan v0.1 | Establish simulation baseline, then select a material for its measurable properties |
+| AS-01/02 extension | [Generative participation](04-generative-participation.md) | Extension v0.2 · November 10, 2026 | Review bounded results and remaining productive-difference and enacted-continuity comparisons |
 
 [Argument, evidence, and discriminating questions](argument-and-evidence.md) · [Sources and conceptual lineage](sources.md) · [Decision and implementation record](decision-log.md)
 
-The essay *Fascia as Infrastructure* is being developed separately as an author-review draft. This repository retains research plans through revision, implementation and results. Planning documents must not disappear when code arrives: update their status, record deviations, and link immutable study versions to runs. Plans are public research artifacts; private source notes and participant records remain outside this repository.
+The essay [Fascia as Infrastructure](https://fieldlight.com/writing/fascia-as-infrastructure/) is published separately. This repository retains research plans through revision, implementation and results. Planning documents must not disappear when code arrives: update their status, record deviations, and link immutable study versions to runs. Plans are public research artifacts; private source notes and participant records remain outside this repository.
 
 ## The common question and the distinctions it requires
 
@@ -35,3 +36,12 @@ A candidate contribution is coordination that preserves both cumulative capabili
 3. Implement a small local simulator with simple agents and synthetic records. No pretrained weights are needed for AS-01.
 4. Publish all planned comparisons, including null and adverse outcomes, with run manifests and analysis code.
 5. Use those results to refine AS-02 and AS-03 with suitable collaborators. Neither human recruitment nor tissue experimentation is authorized by this plan.
+
+## Implementation status
+
+[Current implementation and research status](05-implementation-status.md) reconciles the original plans with the October synthetic studies. The program has executable mechanisms and mixed bounded findings; individual study scope remains explicit.
+
+## Public evidence and new directions
+
+- [Runnable evidence and reproduction instructions](evidence/README.md)
+- [History, maintenance, and encoding](06-history-maintenance-and-encoding.md) — October/November extensions retained with explicit comparisons and next decisions.

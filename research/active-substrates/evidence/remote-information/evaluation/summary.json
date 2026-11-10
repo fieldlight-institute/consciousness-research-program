@@ -1,0 +1,115 @@
+{
+  "conditions": {
+    "local": {
+      "primary_rate": 0.9407557490827927,
+      "replacement_rate": 0.9199616354396627,
+      "completed": 2223.625,
+      "collisions": 752.9,
+      "travel": 8683.65,
+      "wasted_travel": 1095.1,
+      "remote_commitments": 0,
+      "remote_successes": 0,
+      "transmissions": 0,
+      "payload_scalars": 0,
+      "observation_scans": 136584.85,
+      "mailbox_scans": 0,
+      "board_comparisons": 5420.05,
+      "credit_updates": 0,
+      "peak_credit_cells": 0
+    },
+    "A-fixed": {
+      "primary_rate": 0.9836402528285096,
+      "replacement_rate": 0.9758520786754734,
+      "completed": 2342.825,
+      "collisions": 1685.9,
+      "travel": 12276.425,
+      "wasted_travel": 4795.925,
+      "remote_commitments": 1448.175,
+      "remote_successes": 490.95,
+      "transmissions": 11303.175,
+      "payload_scalars": 90425.4,
+      "observation_scans": 111252.375,
+      "mailbox_scans": 27713.725,
+      "board_comparisons": 13116.85,
+      "credit_updates": 0,
+      "peak_credit_cells": 0
+    },
+    "A-credit": {
+      "primary_rate": 0.9845500798305069,
+      "replacement_rate": 0.9759201511125797,
+      "completed": 2343.975,
+      "collisions": 1685.3,
+      "travel": 12299.75,
+      "wasted_travel": 4807.375,
+      "remote_commitments": 1446.325,
+      "remote_successes": 491.45,
+      "transmissions": 11288.875,
+      "payload_scalars": 90311,
+      "observation_scans": 111235.525,
+      "mailbox_scans": 27752.75,
+      "board_comparisons": 13189.325,
+      "credit_updates": 1443.275,
+      "peak_credit_cells": 120.65
+    },
+    "A-credit-reset": {
+      "primary_rate": 0.9845500798305069,
+      "replacement_rate": 0.9761227877071424,
+      "completed": 2343.825,
+      "collisions": 1685.175,
+      "travel": 12305.575,
+      "wasted_travel": 4807.75,
+      "remote_commitments": 1446.825,
+      "remote_successes": 492.45,
+      "transmissions": 11283.925,
+      "payload_scalars": 90271.4,
+      "observation_scans": 111206.95,
+      "mailbox_scans": 27765.825,
+      "board_comparisons": 13186.975,
+      "credit_updates": 1443.425,
+      "peak_credit_cells": 120.65
+    }
+  },
+  "contrasts": [
+    {
+      "a": "A-fixed",
+      "b": "local",
+      "metric": "primary_rate",
+      "mean": 0.04288450374571693,
+      "ci95": [
+        0.038225120972501726,
+        0.04769102870352923
+      ],
+      "paired_n": 40
+    },
+    {
+      "a": "A-credit",
+      "b": "A-fixed",
+      "metric": "primary_rate",
+      "mean": 0.0009098270019972876,
+      "ci95": [
+        -0.0015061830697608303,
+        0.0034074814211359273
+      ],
+      "paired_n": 40
+    },
+    {
+      "a": "A-credit",
+      "b": "A-credit-reset",
+      "metric": "replacement_rate",
+      "mean": -0.00020263659456274397,
+      "ci95": [
+        -0.0030580146654120483,
+        0.002739231166291878
+      ],
+      "paired_n": 40
+    }
+  ],
+  "source_hashes": {
+    "remote-information/SPECIFICATION.md": "dcae26007cf28fdc1af810f0515dce4fc3a6d4eb30be89052eca2b8c3b128c01",
+    "remote-information/study.py": "9495cd968bf6168065206f6dc01478487b8f2e40459a4dfb75043b76ff5e5eee",
+    "remote-information/run.py": "765f1e0bb31ffcba1a0ab58e6cd7499f15beebf4a3cbe9a428d968a85c58e7fc",
+    "remote-information/test_study.py": "2a1d4a10cebdddb281fa2c83644c6f0124f4c4cc3aa6ac0c4d81fd883114694f",
+    "simulate.py": "5f54269226acd78289420336c1cf9b3acb3b6f2a4f6c89de88416ec22bd2bcfd",
+    "claim-specificity/study.py": "11da95aa28fa9e6912dc391b5e32ddda6161e0270e275a2dba127770f9d1e5e5"
+  }
+}

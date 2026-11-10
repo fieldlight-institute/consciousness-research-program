@@ -1,0 +1,91 @@
+{
+  "agents": [
+    {
+      "id": "only",
+      "site": 0,
+      "rates": {
+        "X": 1
+      },
+      "refused": []
+    }
+  ],
+  "operations": [
+    {
+      "id": "0",
+      "site": 0,
+      "release": 0,
+      "deadline": 1,
+      "demands": [
+        [
+          "X",
+          1
+        ]
+      ],
+      "predecessors": []
+    },
+    {
+      "id": "1",
+      "site": 0,
+      "release": 0,
+      "deadline": 1,
+      "demands": [
+        [
+          "X",
+          1
+        ]
+      ],
+      "predecessors": []
+    }
+  ],
+  "individual": [
+    {
+      "status": "feasible",
+      "search_complete": true,
+      "nodes": 2,
+      "minimum_makespan": 1,
+      "witness": [
+        {
+          "operation": "0",
+          "crew": [
+            "only"
+          ],
+          "start": 0,
+          "finish": 1
+        }
+      ],
+      "accounting": {
+        "work_occupancy_ticks": 1,
+        "travel_ticks": 0,
+        "elapsed_ticks": 1
+      }
+    },
+    {
+      "status": "feasible",
+      "search_complete": true,
+      "nodes": 2,
+      "minimum_makespan": 1,
+      "witness": [
+        {
+          "operation": "1",
+          "crew": [
+            "only"
+          ],
+          "start": 0,
+          "finish": 1
+        }
+      ],
+      "accounting": {
+        "work_occupancy_ticks": 1,
+        "travel_ticks": 0,
+        "elapsed_ticks": 1
+      }
+    }
+  ],
+  "joint": {
+    "status": "infeasible",
+    "search_complete": true,
+    "nodes": 3,
+    "minimum_makespan": null,
+    "witness": null
+  }
+}

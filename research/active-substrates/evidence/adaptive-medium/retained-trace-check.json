@@ -1,0 +1,7 @@
+{
+  "primary_counts_identical_seeds": 33,
+  "total_seeds": 40,
+  "first_seed": 8000,
+  "first_seed_claim_sequences_identical": false,
+  "first_seed_medium_snapshots_differ": true
+}

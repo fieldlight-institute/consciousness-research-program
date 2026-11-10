@@ -42,3 +42,7 @@ The question of cross-system coordination also remains: what pattern can one par
 ## Argument development
 
 The [argument and evidence map](argument-and-evidence.md) retains the full field-interface and consciousness hypotheses and specifies three linked comparisons: embodied reconstruction, candidate-channel intervention, and conscious access. These extend the prospective design before implementation; they do not report results.
+
+## October 20 extension
+
+[Generative participation](04-generative-participation.md) extends the retained plan with recognition and authority to revise, productive difference, and continuity through enactment. The existing baseline and endpoints remain intact; the extension is separately versioned. Its synthetic participant-authority branch has been partially implemented; this does not change the unrun status of the human study. See [current implementation status](05-implementation-status.md).

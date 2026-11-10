@@ -1,0 +1,118 @@
+{
+  "conditions": {
+    "C": {
+      "primary_rate": 0.9160890123965848,
+      "replacement_rate": 0.8996497828096495,
+      "completed": 2172.025,
+      "collisions": 1231.6,
+      "travel": 9220.925,
+      "wasted_travel": 1924.275,
+      "reads": 3854.725,
+      "writes": 3408.15,
+      "edge_updates": 288000,
+      "receipt_writes": 288000,
+      "eligibility_reads": 13628.9,
+      "feedback_updates": 0,
+      "relaxations": 0,
+      "weight_min": 1.0,
+      "weight_max": 1.0,
+      "weight_mean": 1.0
+    },
+    "D": {
+      "primary_rate": 0.9155256463253916,
+      "replacement_rate": 0.9013247366627795,
+      "completed": 2172.7,
+      "collisions": 1231.95,
+      "travel": 9221.1,
+      "wasted_travel": 1925.4,
+      "reads": 3854.725,
+      "writes": 3409.175,
+      "edge_updates": 288000,
+      "receipt_writes": 288000,
+      "eligibility_reads": 13633,
+      "feedback_updates": 13593.8,
+      "relaxations": 144000,
+      "weight_min": 1.0192297859613408,
+      "weight_max": 1.3668118068538517,
+      "weight_mean": 1.1426404664015584
+    },
+    "D-frozen": {
+      "primary_rate": 0.9162791439836152,
+      "replacement_rate": 0.8996426875768283,
+      "completed": 2171.8,
+      "collisions": 1232.375,
+      "travel": 9221.625,
+      "wasted_travel": 1926.075,
+      "reads": 3855.625,
+      "writes": 3408.7,
+      "edge_updates": 288000,
+      "receipt_writes": 288000,
+      "eligibility_reads": 13631.1,
+      "feedback_updates": 4780,
+      "relaxations": 48000,
+      "weight_min": 0.995895721295324,
+      "weight_max": 1.2197328134253111,
+      "weight_mean": 1.0673109561819538
+    },
+    "D-reset": {
+      "primary_rate": 0.9155256463253916,
+      "replacement_rate": 0.9005227786008272,
+      "completed": 2172.325,
+      "collisions": 1231.55,
+      "travel": 9220.75,
+      "wasted_travel": 1925.1,
+      "reads": 3853.725,
+      "writes": 3408.4,
+      "edge_updates": 288000,
+      "receipt_writes": 288000,
+      "eligibility_reads": 13626.2,
+      "feedback_updates": 13579.9,
+      "relaxations": 144000,
+      "weight_min": 1.0016262605825796,
+      "weight_max": 1.2205875697677555,
+      "weight_mean": 1.0749136293950003
+    }
+  },
+  "contrasts": [
+    {
+      "a": "D",
+      "b": "C",
+      "metric": "primary_rate",
+      "mean": -0.0005633660711932137,
+      "ci95": [
+        -0.0017018528210809235,
+        0.0004422756534049971
+      ],
+      "n": 40
+    },
+    {
+      "a": "D",
+      "b": "D-frozen",
+      "metric": "primary_rate",
+      "mean": -0.0007534976582237229,
+      "ci95": [
+        -0.0017720398499278284,
+        1.8508547583784284e-06
+      ],
+      "n": 40
+    },
+    {
+      "a": "D",
+      "b": "D-reset",
+      "metric": "replacement_rate",
+      "mean": 0.0008019580619522931,
+      "ci95": [
+        -0.0009382945704853208,
+        0.0030778924988022482
+      ],
+      "n": 40
+    }
+  ],
+  "source_hashes": {
+    "SPECIFICATION.md": "d33a168035a561d5e3bc4c9af5b17c3348ad2e5d1719c5300ee56bdfbd76a68a",
+    "study.py": "3d732c4b80e9d15b86a08f401c8a5cc20f53c5789fc285194048f094c0d5716f",
+    "medium.py": "e9b11900a9328526e2988ef35cae16a1229e50a310d934357a75cb65e9d1c80c",
+    "test_medium.py": "6fef551053091a193df44e5b4b456595bbcd3c2b710bd32a87baf67d149a76b7",
+    "run.py": "96899638593e94823bec8689d35647068218f2b4fe916909f969f2e22d0084e3"
+  }
+}

@@ -1,0 +1,1059 @@
+[
+  {
+    "name": "authorized cascade",
+    "agents": [
+      {
+        "id": "a",
+        "site": 0,
+        "rates": {
+          "X": 1
+        },
+        "refused": []
+      },
+      {
+        "id": "b",
+        "site": 0,
+        "rates": {
+          "X": 1
+        },
+        "refused": []
+      }
+    ],
+    "operations": [
+      {
+        "id": "p",
+        "site": 0,
+        "release": 0,
+        "deadline": 9,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "q",
+        "site": 1,
+        "release": 0,
+        "deadline": 9,
+        "demands": [
+          [
+            "X",
+            1
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "r",
+        "site": 2,
+        "release": 0,
+        "deadline": 9,
+        "demands": [
+          [
+            "X",
+            1
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "s",
+        "site": 1,
+        "release": 0,
+        "deadline": 9,
+        "demands": [
+          [
+            "X",
+            1
+          ]
+        ],
+        "predecessors": [
+          "q"
+        ]
+      }
+    ],
+    "jobs": {
+      "p": [
+        "p"
+      ],
+      "q": [
+        "q"
+      ],
+      "r": [
+        "r"
+      ],
+      "s": [
+        "s"
+      ]
+    },
+    "before": [
+      {
+        "operation": "p",
+        "crew": [
+          "a"
+        ],
+        "committed": 0,
+        "origin": 0,
+        "depart": 0,
+        "start": 0,
+        "finish": 2
+      },
+      {
+        "operation": "q",
+        "crew": [
+          "a"
+        ],
+        "committed": 0,
+        "origin": 0,
+        "depart": 3,
+        "start": 4,
+        "finish": 5
+      },
+      {
+        "operation": "r",
+        "crew": [
+          "a"
+        ],
+        "committed": 0,
+        "origin": 1,
+        "depart": 5,
+        "start": 6,
+        "finish": 7
+      },
+      {
+        "operation": "s",
+        "crew": [
+          "b"
+        ],
+        "committed": 0,
+        "origin": 0,
+        "depart": 4,
+        "start": 6,
+        "finish": 7
+      }
+    ],
+    "proposal": {
+      "snapshot": "07649438c16db317a6fc9dfd1ffeeabe94853a311405093a747bcf1cefe4f72f",
+      "now": 2,
+      "lag": 1,
+      "requested": [
+        "q"
+      ],
+      "withdrawals": [
+        "q",
+        "r",
+        "s"
+      ],
+      "affected_agents": [
+        "a",
+        "b"
+      ],
+      "blockers": []
+    },
+    "authorized_agents": [
+      "a",
+      "b"
+    ],
+    "apply_time": 2,
+    "result": {
+      "reservations": [
+        {
+          "operation": "p",
+          "crew": [
+            "a"
+          ],
+          "committed": 0,
+          "origin": 0,
+          "depart": 0,
+          "start": 0,
+          "finish": 2
+        }
+      ],
+      "audit": {
+        "before": "07649438c16db317a6fc9dfd1ffeeabe94853a311405093a747bcf1cefe4f72f",
+        "after": "fe9ed449e0ea33e1afafc76f75b390b0f805074c8149b078fbf9b4b258a448b2",
+        "now": 2,
+        "requested": [
+          "q"
+        ],
+        "withdrawals": [
+          "q",
+          "r",
+          "s"
+        ],
+        "affected_agents": [
+          "a",
+          "b"
+        ],
+        "withdrawal_units": 3,
+        "removed_future_work_ticks": 3
+      }
+    },
+    "status": "applied"
+  },
+  {
+    "name": "missing indirect authority",
+    "agents": [
+      {
+        "id": "a",
+        "site": 0,
+        "rates": {
+          "X": 1
+        },
+        "refused": []
+      },
+      {
+        "id": "b",
+        "site": 0,
+        "rates": {
+          "X": 1
+        },
+        "refused": []
+      }
+    ],
+    "operations": [
+      {
+        "id": "p",
+        "site": 0,
+        "release": 0,
+        "deadline": 9,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "q",
+        "site": 1,
+        "release": 0,
+        "deadline": 9,
+        "demands": [
+          [
+            "X",
+            1
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "r",
+        "site": 2,
+        "release": 0,
+        "deadline": 9,
+        "demands": [
+          [
+            "X",
+            1
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "s",
+        "site": 1,
+        "release": 0,
+        "deadline": 9,
+        "demands": [
+          [
+            "X",
+            1
+          ]
+        ],
+        "predecessors": [
+          "q"
+        ]
+      }
+    ],
+    "jobs": {
+      "p": [
+        "p"
+      ],
+      "q": [
+        "q"
+      ],
+      "r": [
+        "r"
+      ],
+      "s": [
+        "s"
+      ]
+    },
+    "before": [
+      {
+        "operation": "p",
+        "crew": [
+          "a"
+        ],
+        "committed": 0,
+        "origin": 0,
+        "depart": 0,
+        "start": 0,
+        "finish": 2
+      },
+      {
+        "operation": "q",
+        "crew": [
+          "a"
+        ],
+        "committed": 0,
+        "origin": 0,
+        "depart": 3,
+        "start": 4,
+        "finish": 5
+      },
+      {
+        "operation": "r",
+        "crew": [
+          "a"
+        ],
+        "committed": 0,
+        "origin": 1,
+        "depart": 5,
+        "start": 6,
+        "finish": 7
+      },
+      {
+        "operation": "s",
+        "crew": [
+          "b"
+        ],
+        "committed": 0,
+        "origin": 0,
+        "depart": 4,
+        "start": 6,
+        "finish": 7
+      }
+    ],
+    "proposal": {
+      "snapshot": "07649438c16db317a6fc9dfd1ffeeabe94853a311405093a747bcf1cefe4f72f",
+      "now": 2,
+      "lag": 1,
+      "requested": [
+        "q"
+      ],
+      "withdrawals": [
+        "q",
+        "r",
+        "s"
+      ],
+      "affected_agents": [
+        "a",
+        "b"
+      ],
+      "blockers": []
+    },
+    "authorized_agents": [
+      "a"
+    ],
+    "apply_time": 2,
+    "status": "rejected",
+    "reason": "missing affected-agent authority"
+  },
+  {
+    "name": "downstream already traveling",
+    "agents": [
+      {
+        "id": "a",
+        "site": 0,
+        "rates": {
+          "X": 1
+        },
+        "refused": []
+      },
+      {
+        "id": "b",
+        "site": 0,
+        "rates": {
+          "X": 1
+        },
+        "refused": []
+      }
+    ],
+    "operations": [
+      {
+        "id": "p",
+        "site": 0,
+        "release": 0,
+        "deadline": 9,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "q",
+        "site": 1,
+        "release": 0,
+        "deadline": 9,
+        "demands": [
+          [
+            "X",
+            1
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "r",
+        "site": 2,
+        "release": 0,
+        "deadline": 9,
+        "demands": [
+          [
+            "X",
+            1
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "s",
+        "site": 1,
+        "release": 0,
+        "deadline": 9,
+        "demands": [
+          [
+            "X",
+            1
+          ]
+        ],
+        "predecessors": [
+          "q"
+        ]
+      }
+    ],
+    "jobs": {
+      "p": [
+        "p"
+      ],
+      "q": [
+        "q"
+      ],
+      "r": [
+        "r"
+      ],
+      "s": [
+        "s"
+      ]
+    },
+    "before": [
+      {
+        "operation": "p",
+        "crew": [
+          "a"
+        ],
+        "committed": 0,
+        "origin": 0,
+        "depart": 0,
+        "start": 0,
+        "finish": 2
+      },
+      {
+        "operation": "q",
+        "crew": [
+          "a"
+        ],
+        "committed": 0,
+        "origin": 0,
+        "depart": 3,
+        "start": 4,
+        "finish": 5
+      },
+      {
+        "operation": "r",
+        "crew": [
+          "a"
+        ],
+        "committed": 0,
+        "origin": 1,
+        "depart": 5,
+        "start": 6,
+        "finish": 7
+      },
+      {
+        "operation": "s",
+        "crew": [
+          "b"
+        ],
+        "committed": 0,
+        "origin": 0,
+        "depart": 1,
+        "start": 6,
+        "finish": 7
+      }
+    ],
+    "proposal": {
+      "snapshot": "1fd9425491d13976a9c3190e3158bab2e002efcf8b9134ea9b36d909b006e8df",
+      "now": 2,
+      "lag": 1,
+      "requested": [
+        "q"
+      ],
+      "withdrawals": [
+        "q",
+        "r",
+        "s"
+      ],
+      "affected_agents": [
+        "a",
+        "b"
+      ],
+      "blockers": [
+        "s"
+      ]
+    },
+    "authorized_agents": [
+      "a",
+      "b"
+    ],
+    "apply_time": 2,
+    "status": "rejected",
+    "reason": "withdrawal reaches departed work"
+  },
+  {
+    "name": "stale decision time",
+    "agents": [
+      {
+        "id": "a",
+        "site": 0,
+        "rates": {
+          "X": 1
+        },
+        "refused": []
+      },
+      {
+        "id": "b",
+        "site": 0,
+        "rates": {
+          "X": 1
+        },
+        "refused": []
+      }
+    ],
+    "operations": [
+      {
+        "id": "p",
+        "site": 0,
+        "release": 0,
+        "deadline": 9,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "q",
+        "site": 1,
+        "release": 0,
+        "deadline": 9,
+        "demands": [
+          [
+            "X",
+            1
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "r",
+        "site": 2,
+        "release": 0,
+        "deadline": 9,
+        "demands": [
+          [
+            "X",
+            1
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "s",
+        "site": 1,
+        "release": 0,
+        "deadline": 9,
+        "demands": [
+          [
+            "X",
+            1
+          ]
+        ],
+        "predecessors": [
+          "q"
+        ]
+      }
+    ],
+    "jobs": {
+      "p": [
+        "p"
+      ],
+      "q": [
+        "q"
+      ],
+      "r": [
+        "r"
+      ],
+      "s": [
+        "s"
+      ]
+    },
+    "before": [
+      {
+        "operation": "p",
+        "crew": [
+          "a"
+        ],
+        "committed": 0,
+        "origin": 0,
+        "depart": 0,
+        "start": 0,
+        "finish": 2
+      },
+      {
+        "operation": "q",
+        "crew": [
+          "a"
+        ],
+        "committed": 0,
+        "origin": 0,
+        "depart": 3,
+        "start": 4,
+        "finish": 5
+      },
+      {
+        "operation": "r",
+        "crew": [
+          "a"
+        ],
+        "committed": 0,
+        "origin": 1,
+        "depart": 5,
+        "start": 6,
+        "finish": 7
+      },
+      {
+        "operation": "s",
+        "crew": [
+          "b"
+        ],
+        "committed": 0,
+        "origin": 0,
+        "depart": 4,
+        "start": 6,
+        "finish": 7
+      }
+    ],
+    "proposal": {
+      "snapshot": "07649438c16db317a6fc9dfd1ffeeabe94853a311405093a747bcf1cefe4f72f",
+      "now": 2,
+      "lag": 1,
+      "requested": [
+        "q"
+      ],
+      "withdrawals": [
+        "q",
+        "r",
+        "s"
+      ],
+      "affected_agents": [
+        "a",
+        "b"
+      ],
+      "blockers": []
+    },
+    "authorized_agents": [
+      "a",
+      "b"
+    ],
+    "apply_time": 3,
+    "status": "rejected",
+    "reason": "stale proposal"
+  },
+  {
+    "name": "completed operation protected",
+    "agents": [
+      {
+        "id": "a",
+        "site": 0,
+        "rates": {
+          "X": 1
+        },
+        "refused": []
+      },
+      {
+        "id": "b",
+        "site": 0,
+        "rates": {
+          "X": 1
+        },
+        "refused": []
+      }
+    ],
+    "operations": [
+      {
+        "id": "p",
+        "site": 0,
+        "release": 0,
+        "deadline": 9,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "q",
+        "site": 1,
+        "release": 0,
+        "deadline": 9,
+        "demands": [
+          [
+            "X",
+            1
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "r",
+        "site": 2,
+        "release": 0,
+        "deadline": 9,
+        "demands": [
+          [
+            "X",
+            1
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "s",
+        "site": 1,
+        "release": 0,
+        "deadline": 9,
+        "demands": [
+          [
+            "X",
+            1
+          ]
+        ],
+        "predecessors": [
+          "q"
+        ]
+      }
+    ],
+    "jobs": {
+      "p": [
+        "p"
+      ],
+      "q": [
+        "q"
+      ],
+      "r": [
+        "r"
+      ],
+      "s": [
+        "s"
+      ]
+    },
+    "before": [
+      {
+        "operation": "p",
+        "crew": [
+          "a"
+        ],
+        "committed": 0,
+        "origin": 0,
+        "depart": 0,
+        "start": 0,
+        "finish": 2
+      },
+      {
+        "operation": "q",
+        "crew": [
+          "a"
+        ],
+        "committed": 0,
+        "origin": 0,
+        "depart": 3,
+        "start": 4,
+        "finish": 5
+      },
+      {
+        "operation": "r",
+        "crew": [
+          "a"
+        ],
+        "committed": 0,
+        "origin": 1,
+        "depart": 5,
+        "start": 6,
+        "finish": 7
+      },
+      {
+        "operation": "s",
+        "crew": [
+          "b"
+        ],
+        "committed": 0,
+        "origin": 0,
+        "depart": 4,
+        "start": 6,
+        "finish": 7
+      }
+    ],
+    "proposal": {
+      "snapshot": "07649438c16db317a6fc9dfd1ffeeabe94853a311405093a747bcf1cefe4f72f",
+      "now": 2,
+      "lag": 1,
+      "requested": [
+        "p"
+      ],
+      "withdrawals": [
+        "p",
+        "q",
+        "r",
+        "s"
+      ],
+      "affected_agents": [
+        "a",
+        "b"
+      ],
+      "blockers": [
+        "p"
+      ]
+    },
+    "authorized_agents": [
+      "a",
+      "b"
+    ],
+    "apply_time": 2,
+    "status": "rejected",
+    "reason": "withdrawal reaches departed work"
+  },
+  {
+    "name": "unrelated tail withdrawal",
+    "agents": [
+      {
+        "id": "a",
+        "site": 0,
+        "rates": {
+          "X": 1
+        },
+        "refused": []
+      },
+      {
+        "id": "b",
+        "site": 0,
+        "rates": {
+          "X": 1
+        },
+        "refused": []
+      }
+    ],
+    "operations": [
+      {
+        "id": "p",
+        "site": 0,
+        "release": 0,
+        "deadline": 9,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "q",
+        "site": 1,
+        "release": 0,
+        "deadline": 9,
+        "demands": [
+          [
+            "X",
+            1
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "r",
+        "site": 2,
+        "release": 0,
+        "deadline": 9,
+        "demands": [
+          [
+            "X",
+            1
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "s",
+        "site": 1,
+        "release": 0,
+        "deadline": 9,
+        "demands": [
+          [
+            "X",
+            1
+          ]
+        ],
+        "predecessors": [
+          "q"
+        ]
+      }
+    ],
+    "jobs": {
+      "p": [
+        "p"
+      ],
+      "q": [
+        "q"
+      ],
+      "r": [
+        "r"
+      ],
+      "s": [
+        "s"
+      ]
+    },
+    "before": [
+      {
+        "operation": "p",
+        "crew": [
+          "a"
+        ],
+        "committed": 0,
+        "origin": 0,
+        "depart": 0,
+        "start": 0,
+        "finish": 2
+      },
+      {
+        "operation": "q",
+        "crew": [
+          "a"
+        ],
+        "committed": 0,
+        "origin": 0,
+        "depart": 3,
+        "start": 4,
+        "finish": 5
+      },
+      {
+        "operation": "r",
+        "crew": [
+          "a"
+        ],
+        "committed": 0,
+        "origin": 1,
+        "depart": 5,
+        "start": 6,
+        "finish": 7
+      },
+      {
+        "operation": "s",
+        "crew": [
+          "b"
+        ],
+        "committed": 0,
+        "origin": 0,
+        "depart": 4,
+        "start": 6,
+        "finish": 7
+      }
+    ],
+    "proposal": {
+      "snapshot": "07649438c16db317a6fc9dfd1ffeeabe94853a311405093a747bcf1cefe4f72f",
+      "now": 2,
+      "lag": 1,
+      "requested": [
+        "r"
+      ],
+      "withdrawals": [
+        "r"
+      ],
+      "affected_agents": [
+        "a"
+      ],
+      "blockers": []
+    },
+    "authorized_agents": [
+      "a"
+    ],
+    "apply_time": 2,
+    "result": {
+      "reservations": [
+        {
+          "operation": "p",
+          "crew": [
+            "a"
+          ],
+          "committed": 0,
+          "origin": 0,
+          "depart": 0,
+          "start": 0,
+          "finish": 2
+        },
+        {
+          "operation": "q",
+          "crew": [
+            "a"
+          ],
+          "committed": 0,
+          "origin": 0,
+          "depart": 3,
+          "start": 4,
+          "finish": 5
+        },
+        {
+          "operation": "s",
+          "crew": [
+            "b"
+          ],
+          "committed": 0,
+          "origin": 0,
+          "depart": 4,
+          "start": 6,
+          "finish": 7
+        }
+      ],
+      "audit": {
+        "before": "07649438c16db317a6fc9dfd1ffeeabe94853a311405093a747bcf1cefe4f72f",
+        "after": "d4093bfd429e8de54781320671810f947113a0ca841ca5cffbe082e6073f6d37",
+        "now": 2,
+        "requested": [
+          "r"
+        ],
+        "withdrawals": [
+          "r"
+        ],
+        "affected_agents": [
+          "a"
+        ],
+        "withdrawal_units": 1,
+        "removed_future_work_ticks": 1
+      }
+    },
+    "status": "applied"
+  }
+]

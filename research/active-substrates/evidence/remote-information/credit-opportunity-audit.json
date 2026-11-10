@@ -1,0 +1,13 @@
+{
+  "post_hoc": true,
+  "seed": 4000,
+  "condition": "A-credit",
+  "matches_every_retained_result_field": true,
+  "candidate_decisions": 4071,
+  "decisions_with_remote_option": 1854,
+  "remote_option_only_one_candidate": 1381,
+  "ranking_changed_against_fixed_weight": 33,
+  "source_sha256": "9495cd968bf6168065206f6dc01478487b8f2e40459a4dfb75043b76ff5e5eee",
+  "instrumented_sha256": "5633e9abc22121d1507568d277297529f80fd98e081b0ef3055b990a588f7437",
+  "interpretation": "Diagnostic of this one trajectory, not a new outcome comparison. Positive weights cannot veto a lone feasible report."
+}

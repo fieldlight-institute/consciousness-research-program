@@ -1,0 +1,13 @@
+{
+  "cases": 6,
+  "applied": 2,
+  "rejected": 4,
+  "caller_snapshots_unchanged": true,
+  "prior_artifacts_unchanged": 582,
+  "sources": {
+    "SPECIFICATION.md": "6145aea04460628556b66a48a76412c2659688e324db01ba7c840beb962d4a37",
+    "lifecycle.py": "9f7cc9f54464a2d9846855d381eec2150b371edbfbeddbf61107b85088b8416f",
+    "test_lifecycle.py": "632c738a7f73baeaa88d5a56927e5d8f9ba1bb2e449a307fba6f3a35ea68e9d0",
+    "demo.py": "7c95e4f76fb36aee6651ccce3bd8b759a5ec406e44c61e5ef1d2ffa0dedafab6"
+  }
+}

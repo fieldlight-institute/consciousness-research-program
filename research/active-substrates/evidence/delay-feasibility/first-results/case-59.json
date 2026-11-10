@@ -1,0 +1,96 @@
+{
+  "index": 59,
+  "delays": {
+    "0-0": 1,
+    "0-1": 1,
+    "1-0": 1,
+    "1-1": 0,
+    "2-0": 1,
+    "2-1": 1
+  },
+  "weight": 0.000732421875,
+  "fixed_service": {
+    "append": 2,
+    "revise": 1
+  },
+  "bound": {
+    "status": "exact",
+    "lower": 2,
+    "upper": 2,
+    "completed_jobs": [
+      "0",
+      "1"
+    ],
+    "partial_jobs": [],
+    "witness": [
+      {
+        "operation": "0-0",
+        "crew": [
+          "a"
+        ],
+        "start": 1,
+        "finish": 3
+      },
+      {
+        "operation": "0-1",
+        "crew": [
+          "a"
+        ],
+        "start": 3,
+        "finish": 5
+      },
+      {
+        "operation": "1-0",
+        "crew": [
+          "b"
+        ],
+        "start": 1,
+        "finish": 3
+      },
+      {
+        "operation": "1-1",
+        "crew": [
+          "b"
+        ],
+        "start": 3,
+        "finish": 4
+      }
+    ],
+    "accounting": {
+      "work_occupancy_ticks": 7,
+      "travel_ticks": 1,
+      "elapsed_ticks": 5
+    },
+    "nodes": 366,
+    "candidate_closures": 7,
+    "tested_candidates": [
+      {
+        "operations": [
+          "0-0",
+          "0-1",
+          "1-0",
+          "1-1",
+          "2-0",
+          "2-1"
+        ],
+        "potential_service": 3,
+        "status": "infeasible",
+        "nodes": 345,
+        "search_complete": true
+      },
+      {
+        "operations": [
+          "0-0",
+          "0-1",
+          "1-0",
+          "1-1"
+        ],
+        "potential_service": 2,
+        "status": "feasible",
+        "nodes": 21,
+        "search_complete": true
+      }
+    ],
+    "unresolved_service_bounds": []
+  }
+}

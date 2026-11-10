@@ -1,0 +1,30 @@
+{
+  "workloads": 40,
+  "paired_delay_vectors": 2560,
+  "replayed_schedules": 5120,
+  "zero_delay_exact_matches": 80,
+  "mean_difference": 0.0016194661458333343,
+  "ci95": [
+    -0.006966145833333331,
+    0.011743164062499997
+  ],
+  "positive": 2,
+  "ties": 36,
+  "negative": 2,
+  "policies": {
+    "append": {
+      "completed": 2.07177734375,
+      "completion_fraction": 0.6905924479166666,
+      "late_operations": 0.23525390625,
+      "work_ticks": 7.825,
+      "last_finish": 6.809063720703125
+    },
+    "revise": {
+      "completed": 2.0766357421875,
+      "completion_fraction": 0.6922119140625,
+      "late_operations": 0.3400634765625,
+      "work_ticks": 8.125,
+      "last_finish": 7.011334228515625
+    }
+  }
+}

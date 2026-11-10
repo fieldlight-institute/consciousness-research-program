@@ -1,0 +1,13 @@
+{
+  "tests_passed": 4,
+  "trajectory_snapshots_validated": 1146,
+  "adopted_withdrawals_reconciled": 4,
+  "prior_artifacts_unchanged": 590,
+  "source_hashes": {
+    "SPECIFICATION.md": "dbf7bd7023ad91b0f082c7693338c9ff380d6f48237401dca98e38c8d851a465",
+    "study.py": "a307c45d2b24bce9cf38b8c666e8b13f126d138581947c7b0355c69b4f5988e3",
+    "test_replanning.py": "3e1dc92355d24c69b88285d65c3b65c5164be66248915c29d84592aff0f5f200",
+    "run.py": "fb1e148ab629a02cc834cabe165ba6ad651ef6b8fcb97e90ccdbef9381b52d08"
+  },
+  "report_sha256": "c6f51d573397c20206abd518ed4930967dcdb1ac89f89406df4e0de9112a28e0"
+}

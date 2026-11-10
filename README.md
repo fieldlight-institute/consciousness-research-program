@@ -39,4 +39,4 @@ This repository is public for reading and citation, but it is not open-licensed 
 
 ## Active Research Plans
 
-- [Active Substrates: Memory, Coordination, and Consciousness](research/active-substrates/README.md) — retained plans for computational fascia, embodied recognition, and material computation. Planning v0.1, September 29, 2026; not yet implemented. Specifications, revisions and later run records remain linked through implementation.
+- [Active Substrates: Memory, Coordination, and Consciousness](research/active-substrates/README.md) — retained plans for computational fascia, embodied recognition, and material computation. November 10, 2026 release includes synthetic implementations, retained results, reproduction commands, and the history/maintenance/encoding extension. Original specifications remain linked.

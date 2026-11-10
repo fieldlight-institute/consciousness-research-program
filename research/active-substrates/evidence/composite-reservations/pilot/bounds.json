@@ -1,0 +1,890 @@
+[
+  {
+    "seed": 15000,
+    "status": "exact",
+    "lower": 2,
+    "upper": 2,
+    "completed_jobs": [
+      "1",
+      "2"
+    ],
+    "partial_jobs": [],
+    "witness": [
+      {
+        "operation": "1-0",
+        "crew": [
+          "a"
+        ],
+        "start": 2,
+        "finish": 4
+      },
+      {
+        "operation": "1-1",
+        "crew": [
+          "a"
+        ],
+        "start": 4,
+        "finish": 5
+      },
+      {
+        "operation": "2-0",
+        "crew": [
+          "b"
+        ],
+        "start": 1,
+        "finish": 2
+      },
+      {
+        "operation": "2-1",
+        "crew": [
+          "b"
+        ],
+        "start": 2,
+        "finish": 3
+      }
+    ],
+    "accounting": {
+      "work_occupancy_ticks": 5,
+      "travel_ticks": 1,
+      "elapsed_ticks": 5
+    },
+    "nodes": 524,
+    "candidate_closures": 7,
+    "tested_candidates": [
+      {
+        "operations": [
+          "0-0",
+          "0-1",
+          "1-0",
+          "1-1",
+          "2-0",
+          "2-1"
+        ],
+        "potential_service": 3,
+        "status": "infeasible",
+        "nodes": 443,
+        "search_complete": true
+      },
+      {
+        "operations": [
+          "0-0",
+          "0-1",
+          "1-0",
+          "1-1"
+        ],
+        "potential_service": 2,
+        "status": "infeasible",
+        "nodes": 19,
+        "search_complete": true
+      },
+      {
+        "operations": [
+          "0-0",
+          "0-1",
+          "2-0",
+          "2-1"
+        ],
+        "potential_service": 2,
+        "status": "infeasible",
+        "nodes": 37,
+        "search_complete": true
+      },
+      {
+        "operations": [
+          "1-0",
+          "1-1",
+          "2-0",
+          "2-1"
+        ],
+        "potential_service": 2,
+        "status": "feasible",
+        "nodes": 25,
+        "search_complete": true
+      }
+    ],
+    "unresolved_service_bounds": []
+  },
+  {
+    "seed": 15001,
+    "status": "exact",
+    "lower": 3,
+    "upper": 3,
+    "completed_jobs": [
+      "0",
+      "1",
+      "2"
+    ],
+    "partial_jobs": [],
+    "witness": [
+      {
+        "operation": "0-0",
+        "crew": [
+          "a"
+        ],
+        "start": 2,
+        "finish": 3
+      },
+      {
+        "operation": "1-0",
+        "crew": [
+          "b"
+        ],
+        "start": 3,
+        "finish": 5
+      },
+      {
+        "operation": "1-1",
+        "crew": [
+          "b"
+        ],
+        "start": 5,
+        "finish": 6
+      },
+      {
+        "operation": "0-1",
+        "crew": [
+          "b"
+        ],
+        "start": 7,
+        "finish": 8
+      },
+      {
+        "operation": "2-0",
+        "crew": [
+          "a"
+        ],
+        "start": 5,
+        "finish": 7
+      },
+      {
+        "operation": "2-1",
+        "crew": [
+          "a"
+        ],
+        "start": 7,
+        "finish": 8
+      }
+    ],
+    "accounting": {
+      "work_occupancy_ticks": 8,
+      "travel_ticks": 6,
+      "elapsed_ticks": 8
+    },
+    "nodes": 281,
+    "candidate_closures": 7,
+    "tested_candidates": [
+      {
+        "operations": [
+          "0-0",
+          "0-1",
+          "1-0",
+          "1-1",
+          "2-0",
+          "2-1"
+        ],
+        "potential_service": 3,
+        "status": "feasible",
+        "nodes": 281,
+        "search_complete": true
+      }
+    ],
+    "unresolved_service_bounds": []
+  },
+  {
+    "seed": 15002,
+    "status": "exact",
+    "lower": 2,
+    "upper": 2,
+    "completed_jobs": [
+      "0",
+      "1"
+    ],
+    "partial_jobs": [],
+    "witness": [
+      {
+        "operation": "0-0",
+        "crew": [
+          "a"
+        ],
+        "start": 3,
+        "finish": 5
+      },
+      {
+        "operation": "0-1",
+        "crew": [
+          "a"
+        ],
+        "start": 5,
+        "finish": 7
+      },
+      {
+        "operation": "1-0",
+        "crew": [
+          "b"
+        ],
+        "start": 1,
+        "finish": 2
+      },
+      {
+        "operation": "1-1",
+        "crew": [
+          "b"
+        ],
+        "start": 2,
+        "finish": 3
+      }
+    ],
+    "accounting": {
+      "work_occupancy_ticks": 6,
+      "travel_ticks": 1,
+      "elapsed_ticks": 7
+    },
+    "nodes": 469,
+    "candidate_closures": 7,
+    "tested_candidates": [
+      {
+        "operations": [
+          "0-0",
+          "0-1",
+          "1-0",
+          "1-1",
+          "2-0",
+          "2-1"
+        ],
+        "potential_service": 3,
+        "status": "infeasible",
+        "nodes": 438,
+        "search_complete": true
+      },
+      {
+        "operations": [
+          "0-0",
+          "0-1",
+          "1-0",
+          "1-1"
+        ],
+        "potential_service": 2,
+        "status": "feasible",
+        "nodes": 31,
+        "search_complete": true
+      }
+    ],
+    "unresolved_service_bounds": []
+  },
+  {
+    "seed": 15003,
+    "status": "exact",
+    "lower": 3,
+    "upper": 3,
+    "completed_jobs": [
+      "0",
+      "1",
+      "2"
+    ],
+    "partial_jobs": [],
+    "witness": [
+      {
+        "operation": "0-0",
+        "crew": [
+          "a"
+        ],
+        "start": 1,
+        "finish": 3
+      },
+      {
+        "operation": "0-1",
+        "crew": [
+          "a"
+        ],
+        "start": 3,
+        "finish": 4
+      },
+      {
+        "operation": "1-0",
+        "crew": [
+          "b"
+        ],
+        "start": 1,
+        "finish": 2
+      },
+      {
+        "operation": "1-1",
+        "crew": [
+          "a"
+        ],
+        "start": 4,
+        "finish": 5
+      },
+      {
+        "operation": "2-0",
+        "crew": [
+          "b"
+        ],
+        "start": 3,
+        "finish": 5
+      },
+      {
+        "operation": "2-1",
+        "crew": [
+          "b"
+        ],
+        "start": 5,
+        "finish": 6
+      }
+    ],
+    "accounting": {
+      "work_occupancy_ticks": 8,
+      "travel_ticks": 3,
+      "elapsed_ticks": 6
+    },
+    "nodes": 259,
+    "candidate_closures": 7,
+    "tested_candidates": [
+      {
+        "operations": [
+          "0-0",
+          "0-1",
+          "1-0",
+          "1-1",
+          "2-0",
+          "2-1"
+        ],
+        "potential_service": 3,
+        "status": "feasible",
+        "nodes": 259,
+        "search_complete": true
+      }
+    ],
+    "unresolved_service_bounds": []
+  },
+  {
+    "seed": 15004,
+    "status": "exact",
+    "lower": 2,
+    "upper": 2,
+    "completed_jobs": [
+      "0",
+      "1"
+    ],
+    "partial_jobs": [],
+    "witness": [
+      {
+        "operation": "0-0",
+        "crew": [
+          "a"
+        ],
+        "start": 2,
+        "finish": 4
+      },
+      {
+        "operation": "0-1",
+        "crew": [
+          "a"
+        ],
+        "start": 4,
+        "finish": 5
+      },
+      {
+        "operation": "1-0",
+        "crew": [
+          "b"
+        ],
+        "start": 3,
+        "finish": 5
+      },
+      {
+        "operation": "1-1",
+        "crew": [
+          "b"
+        ],
+        "start": 5,
+        "finish": 6
+      }
+    ],
+    "accounting": {
+      "work_occupancy_ticks": 6,
+      "travel_ticks": 4,
+      "elapsed_ticks": 6
+    },
+    "nodes": 255,
+    "candidate_closures": 7,
+    "tested_candidates": [
+      {
+        "operations": [
+          "0-0",
+          "0-1",
+          "1-0",
+          "1-1",
+          "2-0",
+          "2-1"
+        ],
+        "potential_service": 3,
+        "status": "infeasible",
+        "nodes": 235,
+        "search_complete": true
+      },
+      {
+        "operations": [
+          "0-0",
+          "0-1",
+          "1-0",
+          "1-1"
+        ],
+        "potential_service": 2,
+        "status": "feasible",
+        "nodes": 20,
+        "search_complete": true
+      }
+    ],
+    "unresolved_service_bounds": []
+  },
+  {
+    "seed": 15005,
+    "status": "exact",
+    "lower": 3,
+    "upper": 3,
+    "completed_jobs": [
+      "0",
+      "1",
+      "2"
+    ],
+    "partial_jobs": [],
+    "witness": [
+      {
+        "operation": "0-0",
+        "crew": [
+          "a"
+        ],
+        "start": 3,
+        "finish": 4
+      },
+      {
+        "operation": "0-1",
+        "crew": [
+          "a"
+        ],
+        "start": 4,
+        "finish": 5
+      },
+      {
+        "operation": "1-0",
+        "crew": [
+          "b"
+        ],
+        "start": 1,
+        "finish": 3
+      },
+      {
+        "operation": "1-1",
+        "crew": [
+          "a"
+        ],
+        "start": 6,
+        "finish": 7
+      },
+      {
+        "operation": "2-0",
+        "crew": [
+          "b"
+        ],
+        "start": 4,
+        "finish": 6
+      },
+      {
+        "operation": "2-1",
+        "crew": [
+          "b"
+        ],
+        "start": 6,
+        "finish": 7
+      }
+    ],
+    "accounting": {
+      "work_occupancy_ticks": 8,
+      "travel_ticks": 3,
+      "elapsed_ticks": 7
+    },
+    "nodes": 330,
+    "candidate_closures": 7,
+    "tested_candidates": [
+      {
+        "operations": [
+          "0-0",
+          "0-1",
+          "1-0",
+          "1-1",
+          "2-0",
+          "2-1"
+        ],
+        "potential_service": 3,
+        "status": "feasible",
+        "nodes": 330,
+        "search_complete": true
+      }
+    ],
+    "unresolved_service_bounds": []
+  },
+  {
+    "seed": 15006,
+    "status": "exact",
+    "lower": 3,
+    "upper": 3,
+    "completed_jobs": [
+      "0",
+      "1",
+      "2"
+    ],
+    "partial_jobs": [],
+    "witness": [
+      {
+        "operation": "1-0",
+        "crew": [
+          "b"
+        ],
+        "start": 1,
+        "finish": 2
+      },
+      {
+        "operation": "1-1",
+        "crew": [
+          "b"
+        ],
+        "start": 2,
+        "finish": 4
+      },
+      {
+        "operation": "2-0",
+        "crew": [
+          "a"
+        ],
+        "start": 1,
+        "finish": 2
+      },
+      {
+        "operation": "0-0",
+        "crew": [
+          "a"
+        ],
+        "start": 3,
+        "finish": 4
+      },
+      {
+        "operation": "0-1",
+        "crew": [
+          "a"
+        ],
+        "start": 4,
+        "finish": 6
+      },
+      {
+        "operation": "2-1",
+        "crew": [
+          "b"
+        ],
+        "start": 5,
+        "finish": 6
+      }
+    ],
+    "accounting": {
+      "work_occupancy_ticks": 8,
+      "travel_ticks": 3,
+      "elapsed_ticks": 6
+    },
+    "nodes": 515,
+    "candidate_closures": 7,
+    "tested_candidates": [
+      {
+        "operations": [
+          "0-0",
+          "0-1",
+          "1-0",
+          "1-1",
+          "2-0",
+          "2-1"
+        ],
+        "potential_service": 3,
+        "status": "feasible",
+        "nodes": 515,
+        "search_complete": true
+      }
+    ],
+    "unresolved_service_bounds": []
+  },
+  {
+    "seed": 15007,
+    "status": "exact",
+    "lower": 3,
+    "upper": 3,
+    "completed_jobs": [
+      "0",
+      "1",
+      "2"
+    ],
+    "partial_jobs": [],
+    "witness": [
+      {
+        "operation": "0-0",
+        "crew": [
+          "b"
+        ],
+        "start": 1,
+        "finish": 3
+      },
+      {
+        "operation": "1-0",
+        "crew": [
+          "b"
+        ],
+        "start": 5,
+        "finish": 7
+      },
+      {
+        "operation": "1-1",
+        "crew": [
+          "b"
+        ],
+        "start": 7,
+        "finish": 8
+      },
+      {
+        "operation": "2-0",
+        "crew": [
+          "a"
+        ],
+        "start": 2,
+        "finish": 3
+      },
+      {
+        "operation": "2-1",
+        "crew": [
+          "a"
+        ],
+        "start": 3,
+        "finish": 5
+      },
+      {
+        "operation": "0-1",
+        "crew": [
+          "a"
+        ],
+        "start": 6,
+        "finish": 7
+      }
+    ],
+    "accounting": {
+      "work_occupancy_ticks": 9,
+      "travel_ticks": 4,
+      "elapsed_ticks": 8
+    },
+    "nodes": 364,
+    "candidate_closures": 7,
+    "tested_candidates": [
+      {
+        "operations": [
+          "0-0",
+          "0-1",
+          "1-0",
+          "1-1",
+          "2-0",
+          "2-1"
+        ],
+        "potential_service": 3,
+        "status": "feasible",
+        "nodes": 364,
+        "search_complete": true
+      }
+    ],
+    "unresolved_service_bounds": []
+  },
+  {
+    "seed": 15008,
+    "status": "exact",
+    "lower": 2,
+    "upper": 2,
+    "completed_jobs": [
+      "1",
+      "2"
+    ],
+    "partial_jobs": [],
+    "witness": [
+      {
+        "operation": "1-0",
+        "crew": [
+          "a"
+        ],
+        "start": 2,
+        "finish": 3
+      },
+      {
+        "operation": "1-1",
+        "crew": [
+          "a"
+        ],
+        "start": 3,
+        "finish": 4
+      },
+      {
+        "operation": "2-0",
+        "crew": [
+          "b"
+        ],
+        "start": 1,
+        "finish": 3
+      },
+      {
+        "operation": "2-1",
+        "crew": [
+          "b"
+        ],
+        "start": 3,
+        "finish": 5
+      }
+    ],
+    "accounting": {
+      "work_occupancy_ticks": 6,
+      "travel_ticks": 2,
+      "elapsed_ticks": 5
+    },
+    "nodes": 467,
+    "candidate_closures": 7,
+    "tested_candidates": [
+      {
+        "operations": [
+          "0-0",
+          "0-1",
+          "1-0",
+          "1-1",
+          "2-0",
+          "2-1"
+        ],
+        "potential_service": 3,
+        "status": "infeasible",
+        "nodes": 389,
+        "search_complete": true
+      },
+      {
+        "operations": [
+          "0-0",
+          "0-1",
+          "1-0",
+          "1-1"
+        ],
+        "potential_service": 2,
+        "status": "infeasible",
+        "nodes": 31,
+        "search_complete": true
+      },
+      {
+        "operations": [
+          "0-0",
+          "0-1",
+          "2-0",
+          "2-1"
+        ],
+        "potential_service": 2,
+        "status": "infeasible",
+        "nodes": 25,
+        "search_complete": true
+      },
+      {
+        "operations": [
+          "1-0",
+          "1-1",
+          "2-0",
+          "2-1"
+        ],
+        "potential_service": 2,
+        "status": "feasible",
+        "nodes": 22,
+        "search_complete": true
+      }
+    ],
+    "unresolved_service_bounds": []
+  },
+  {
+    "seed": 15009,
+    "status": "exact",
+    "lower": 3,
+    "upper": 3,
+    "completed_jobs": [
+      "0",
+      "1",
+      "2"
+    ],
+    "partial_jobs": [],
+    "witness": [
+      {
+        "operation": "0-0",
+        "crew": [
+          "b"
+        ],
+        "start": 0,
+        "finish": 2
+      },
+      {
+        "operation": "0-1",
+        "crew": [
+          "b"
+        ],
+        "start": 2,
+        "finish": 3
+      },
+      {
+        "operation": "1-0",
+        "crew": [
+          "a"
+        ],
+        "start": 3,
+        "finish": 4
+      },
+      {
+        "operation": "1-1",
+        "crew": [
+          "a"
+        ],
+        "start": 4,
+        "finish": 6
+      },
+      {
+        "operation": "2-0",
+        "crew": [
+          "b"
+        ],
+        "start": 3,
+        "finish": 5
+      },
+      {
+        "operation": "2-1",
+        "crew": [
+          "b"
+        ],
+        "start": 5,
+        "finish": 6
+      }
+    ],
+    "accounting": {
+      "work_occupancy_ticks": 9,
+      "travel_ticks": 1,
+      "elapsed_ticks": 6
+    },
+    "nodes": 155,
+    "candidate_closures": 7,
+    "tested_candidates": [
+      {
+        "operations": [
+          "0-0",
+          "0-1",
+          "1-0",
+          "1-1",
+          "2-0",
+          "2-1"
+        ],
+        "potential_service": 3,
+        "status": "feasible",
+        "nodes": 155,
+        "search_complete": true
+      }
+    ],
+    "unresolved_service_bounds": []
+  }
+]

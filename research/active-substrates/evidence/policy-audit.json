@@ -1,0 +1,340 @@
+{
+  "scope": "Existing pilot seeds 0-9, budget 96. All original output fields match preserved rows exactly; diagnostics only.",
+  "rows": [
+    {
+      "seed": 0,
+      "condition": "B",
+      "candidate_decisions": 3440,
+      "single_candidate": 3029,
+      "single_site": 3111,
+      "ranking_changed": 130,
+      "duplicate_arrivals": 1270,
+      "expired_arrivals": 0
+    },
+    {
+      "seed": 0,
+      "condition": "C",
+      "candidate_decisions": 3415,
+      "single_candidate": 3039,
+      "single_site": 3120,
+      "ranking_changed": 107,
+      "duplicate_arrivals": 1259,
+      "expired_arrivals": 0
+    },
+    {
+      "seed": 0,
+      "condition": "C-no-propagation",
+      "candidate_decisions": 3413,
+      "single_candidate": 3040,
+      "single_site": 3121,
+      "ranking_changed": 121,
+      "duplicate_arrivals": 1262,
+      "expired_arrivals": 0
+    },
+    {
+      "seed": 1,
+      "condition": "B",
+      "candidate_decisions": 3400,
+      "single_candidate": 3018,
+      "single_site": 3081,
+      "ranking_changed": 132,
+      "duplicate_arrivals": 1226,
+      "expired_arrivals": 0
+    },
+    {
+      "seed": 1,
+      "condition": "C",
+      "candidate_decisions": 3423,
+      "single_candidate": 3051,
+      "single_site": 3127,
+      "ranking_changed": 106,
+      "duplicate_arrivals": 1243,
+      "expired_arrivals": 0
+    },
+    {
+      "seed": 1,
+      "condition": "C-no-propagation",
+      "candidate_decisions": 3417,
+      "single_candidate": 3048,
+      "single_site": 3122,
+      "ranking_changed": 124,
+      "duplicate_arrivals": 1235,
+      "expired_arrivals": 0
+    },
+    {
+      "seed": 2,
+      "condition": "B",
+      "candidate_decisions": 3505,
+      "single_candidate": 3080,
+      "single_site": 3149,
+      "ranking_changed": 134,
+      "duplicate_arrivals": 1314,
+      "expired_arrivals": 0
+    },
+    {
+      "seed": 2,
+      "condition": "C",
+      "candidate_decisions": 3493,
+      "single_candidate": 3097,
+      "single_site": 3163,
+      "ranking_changed": 103,
+      "duplicate_arrivals": 1318,
+      "expired_arrivals": 0
+    },
+    {
+      "seed": 2,
+      "condition": "C-no-propagation",
+      "candidate_decisions": 3466,
+      "single_candidate": 3072,
+      "single_site": 3134,
+      "ranking_changed": 133,
+      "duplicate_arrivals": 1279,
+      "expired_arrivals": 0
+    },
+    {
+      "seed": 3,
+      "condition": "B",
+      "candidate_decisions": 3405,
+      "single_candidate": 3005,
+      "single_site": 3062,
+      "ranking_changed": 136,
+      "duplicate_arrivals": 1254,
+      "expired_arrivals": 0
+    },
+    {
+      "seed": 3,
+      "condition": "C",
+      "candidate_decisions": 3417,
+      "single_candidate": 3022,
+      "single_site": 3090,
+      "ranking_changed": 123,
+      "duplicate_arrivals": 1258,
+      "expired_arrivals": 0
+    },
+    {
+      "seed": 3,
+      "condition": "C-no-propagation",
+      "candidate_decisions": 3404,
+      "single_candidate": 3027,
+      "single_site": 3091,
+      "ranking_changed": 145,
+      "duplicate_arrivals": 1268,
+      "expired_arrivals": 0
+    },
+    {
+      "seed": 4,
+      "condition": "B",
+      "candidate_decisions": 3350,
+      "single_candidate": 2954,
+      "single_site": 3022,
+      "ranking_changed": 141,
+      "duplicate_arrivals": 1223,
+      "expired_arrivals": 0
+    },
+    {
+      "seed": 4,
+      "condition": "C",
+      "candidate_decisions": 3368,
+      "single_candidate": 2996,
+      "single_site": 3063,
+      "ranking_changed": 110,
+      "duplicate_arrivals": 1237,
+      "expired_arrivals": 0
+    },
+    {
+      "seed": 4,
+      "condition": "C-no-propagation",
+      "candidate_decisions": 3374,
+      "single_candidate": 3000,
+      "single_site": 3071,
+      "ranking_changed": 134,
+      "duplicate_arrivals": 1241,
+      "expired_arrivals": 0
+    },
+    {
+      "seed": 5,
+      "condition": "B",
+      "candidate_decisions": 3351,
+      "single_candidate": 2934,
+      "single_site": 3012,
+      "ranking_changed": 167,
+      "duplicate_arrivals": 1180,
+      "expired_arrivals": 0
+    },
+    {
+      "seed": 5,
+      "condition": "C",
+      "candidate_decisions": 3328,
+      "single_candidate": 2946,
+      "single_site": 3023,
+      "ranking_changed": 102,
+      "duplicate_arrivals": 1151,
+      "expired_arrivals": 0
+    },
+    {
+      "seed": 5,
+      "condition": "C-no-propagation",
+      "candidate_decisions": 3301,
+      "single_candidate": 2914,
+      "single_site": 2987,
+      "ranking_changed": 147,
+      "duplicate_arrivals": 1132,
+      "expired_arrivals": 0
+    },
+    {
+      "seed": 6,
+      "condition": "B",
+      "candidate_decisions": 3360,
+      "single_candidate": 2988,
+      "single_site": 3059,
+      "ranking_changed": 121,
+      "duplicate_arrivals": 1216,
+      "expired_arrivals": 0
+    },
+    {
+      "seed": 6,
+      "condition": "C",
+      "candidate_decisions": 3346,
+      "single_candidate": 3006,
+      "single_site": 3069,
+      "ranking_changed": 100,
+      "duplicate_arrivals": 1211,
+      "expired_arrivals": 0
+    },
+    {
+      "seed": 6,
+      "condition": "C-no-propagation",
+      "candidate_decisions": 3351,
+      "single_candidate": 3009,
+      "single_site": 3079,
+      "ranking_changed": 118,
+      "duplicate_arrivals": 1206,
+      "expired_arrivals": 0
+    },
+    {
+      "seed": 7,
+      "condition": "B",
+      "candidate_decisions": 3491,
+      "single_candidate": 3054,
+      "single_site": 3122,
+      "ranking_changed": 143,
+      "duplicate_arrivals": 1270,
+      "expired_arrivals": 0
+    },
+    {
+      "seed": 7,
+      "condition": "C",
+      "candidate_decisions": 3480,
+      "single_candidate": 3074,
+      "single_site": 3139,
+      "ranking_changed": 127,
+      "duplicate_arrivals": 1283,
+      "expired_arrivals": 0
+    },
+    {
+      "seed": 7,
+      "condition": "C-no-propagation",
+      "candidate_decisions": 3478,
+      "single_candidate": 3048,
+      "single_site": 3116,
+      "ranking_changed": 154,
+      "duplicate_arrivals": 1266,
+      "expired_arrivals": 0
+    },
+    {
+      "seed": 8,
+      "condition": "B",
+      "candidate_decisions": 3511,
+      "single_candidate": 3119,
+      "single_site": 3181,
+      "ranking_changed": 143,
+      "duplicate_arrivals": 1320,
+      "expired_arrivals": 0
+    },
+    {
+      "seed": 8,
+      "condition": "C",
+      "candidate_decisions": 3494,
+      "single_candidate": 3119,
+      "single_site": 3187,
+      "ranking_changed": 112,
+      "duplicate_arrivals": 1293,
+      "expired_arrivals": 0
+    },
+    {
+      "seed": 8,
+      "condition": "C-no-propagation",
+      "candidate_decisions": 3483,
+      "single_candidate": 3086,
+      "single_site": 3155,
+      "ranking_changed": 158,
+      "duplicate_arrivals": 1273,
+      "expired_arrivals": 0
+    },
+    {
+      "seed": 9,
+      "condition": "B",
+      "candidate_decisions": 3450,
+      "single_candidate": 3015,
+      "single_site": 3092,
+      "ranking_changed": 158,
+      "duplicate_arrivals": 1323,
+      "expired_arrivals": 0
+    },
+    {
+      "seed": 9,
+      "condition": "C",
+      "candidate_decisions": 3376,
+      "single_candidate": 2969,
+      "single_site": 3045,
+      "ranking_changed": 116,
+      "duplicate_arrivals": 1242,
+      "expired_arrivals": 0
+    },
+    {
+      "seed": 9,
+      "condition": "C-no-propagation",
+      "candidate_decisions": 3426,
+      "single_candidate": 3033,
+      "single_site": 3104,
+      "ranking_changed": 146,
+      "duplicate_arrivals": 1284,
+      "expired_arrivals": 0
+    }
+  ],
+  "summary": {
+    "B": {
+      "candidate_decisions": 34263,
+      "single_candidate": 30196,
+      "single_site": 30891,
+      "ranking_changed": 1405,
+      "duplicate_arrivals": 12596,
+      "expired_arrivals": 0,
+      "single_candidate_fraction": 0.8813005282666433,
+      "single_site_fraction": 0.9015847999299536,
+      "ranking_changed_fraction": 0.04100633336251933
+    },
+    "C": {
+      "candidate_decisions": 34140,
+      "single_candidate": 30319,
+      "single_site": 31026,
+      "ranking_changed": 1106,
+      "duplicate_arrivals": 12495,
+      "expired_arrivals": 0,
+      "single_candidate_fraction": 0.8880785002929116,
+      "single_site_fraction": 0.9087873462214411,
+      "ranking_changed_fraction": 0.03239601640304628
+    },
+    "C-no-propagation": {
+      "candidate_decisions": 34113,
+      "single_candidate": 30277,
+      "single_site": 30980,
+      "ranking_changed": 1380,
+      "duplicate_arrivals": 12446,
+      "expired_arrivals": 0,
+      "single_candidate_fraction": 0.8875502008032129,
+      "single_site_fraction": 0.9081581801659192,
+      "ranking_changed_fraction": 0.04045378594670653
+    }
+  }
+}

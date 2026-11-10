@@ -1,0 +1,122 @@
+{
+  "agents": [
+    {
+      "id": "a",
+      "site": 0,
+      "rates": {
+        "X": 1,
+        "Y": 1
+      },
+      "refused": []
+    },
+    {
+      "id": "b",
+      "site": 2,
+      "rates": {
+        "X": 1,
+        "Y": 1
+      },
+      "refused": []
+    }
+  ],
+  "operations": [
+    {
+      "id": "0-0",
+      "site": 1,
+      "release": 3,
+      "deadline": 9,
+      "demands": [
+        [
+          "X",
+          2
+        ]
+      ],
+      "predecessors": []
+    },
+    {
+      "id": "0-1",
+      "site": 1,
+      "release": 3,
+      "deadline": 9,
+      "demands": [
+        [
+          "Y",
+          1
+        ]
+      ],
+      "predecessors": [
+        "0-0"
+      ]
+    },
+    {
+      "id": "1-0",
+      "site": 2,
+      "release": 0,
+      "deadline": 7,
+      "demands": [
+        [
+          "X",
+          2
+        ]
+      ],
+      "predecessors": []
+    },
+    {
+      "id": "1-1",
+      "site": 2,
+      "release": 0,
+      "deadline": 7,
+      "demands": [
+        [
+          "Y",
+          1
+        ]
+      ],
+      "predecessors": [
+        "1-0"
+      ]
+    },
+    {
+      "id": "2-0",
+      "site": 1,
+      "release": 1,
+      "deadline": 5,
+      "demands": [
+        [
+          "X",
+          2
+        ]
+      ],
+      "predecessors": []
+    },
+    {
+      "id": "2-1",
+      "site": 1,
+      "release": 1,
+      "deadline": 5,
+      "demands": [
+        [
+          "Y",
+          2
+        ]
+      ],
+      "predecessors": [
+        "2-0"
+      ]
+    }
+  ],
+  "jobs": {
+    "0": [
+      "0-0",
+      "0-1"
+    ],
+    "1": [
+      "1-0",
+      "1-1"
+    ],
+    "2": [
+      "2-0",
+      "2-1"
+    ]
+  }
+}

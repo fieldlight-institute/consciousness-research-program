@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-10",
+  "command": "python3 reproduce.py --full",
+  "python": "3.9.6",
+  "platform": "Darwin",
+  "exit_code": 0,
+  "unit_tests_passed": 57,
+  "full_row_comparisons": 1080,
+  "checks": [
+    {
+      "study": "baseline",
+      "exact_rows": 400,
+      "mode": "full"
+    },
+    {
+      "study": "adaptive-medium",
+      "exact_rows": 160,
+      "mode": "full"
+    },
+    {
+      "study": "remote-information",
+      "exact_rows": 160,
+      "mode": "full"
+    },
+    {
+      "study": "participant-authority",
+      "exact_rows": 200,
+      "mode": "full"
+    },
+    {
+      "study": "composite-reservations",
+      "exact_rows": 80,
+      "mode": "full"
+    },
+    {
+      "study": "reservation-replanning",
+      "exact_rows": 80,
+      "mode": "full"
+    },
+    {
+      "study": "complementary-feasibility",
+      "retained_summary_exact": true
+    },
+    {
+      "study": "attainable-service",
+      "retained_summary_exact": true
+    },
+    {
+      "study": "reservation-lifecycle",
+      "retained_summary_exact": true
+    },
+    {
+      "study": "execution-delay",
+      "retained_summary_exact": true
+    },
+    {
+      "study": "delay-feasibility",
+      "retained_summary_exact": true
+    }
+  ],
+  "scope": "Exact retained simulation rows and five finite result objects; not a rerun of every historical pilot or bootstrap analysis."
+}

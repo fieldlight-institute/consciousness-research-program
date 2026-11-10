@@ -1,0 +1,22 @@
+{
+  "selected_seed": 18035,
+  "delay_vectors": 64,
+  "exact_results": 64,
+  "weighted_lower": 2.990966796875,
+  "weighted_upper": 2.990966796875,
+  "weighted_fixed": {
+    "append": 2.0,
+    "revise": 1.73828125
+  },
+  "monotonic_comparisons": 729,
+  "single_delay_case": 8,
+  "single_delay_bound": [
+    3,
+    3
+  ],
+  "single_delay_fixed": {
+    "append": 2,
+    "revise": 1
+  },
+  "search_nodes": 25027
+}

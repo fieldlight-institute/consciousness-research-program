@@ -1,0 +1,118 @@
+{
+  "conditions": {
+    "C": {
+      "primary_rate": 0.9208052324655273,
+      "replacement_rate": 0.9010285833430335,
+      "completed": 2167,
+      "collisions": 1225.1,
+      "travel": 9230.9,
+      "wasted_travel": 1923.2,
+      "reads": 3820.1,
+      "writes": 3396.6,
+      "edge_updates": 288000,
+      "receipt_writes": 288000,
+      "eligibility_reads": 13582,
+      "feedback_updates": 0,
+      "relaxations": 0,
+      "weight_min": 1.0,
+      "weight_max": 1.0,
+      "weight_mean": 1.0
+    },
+    "D": {
+      "primary_rate": 0.9208052324655273,
+      "replacement_rate": 0.8989892392638518,
+      "completed": 2165.6,
+      "collisions": 1223.6,
+      "travel": 9228.4,
+      "wasted_travel": 1921.1,
+      "reads": 3815.2,
+      "writes": 3393.9,
+      "edge_updates": 288000,
+      "receipt_writes": 288000,
+      "eligibility_reads": 13571.2,
+      "feedback_updates": 13531.2,
+      "relaxations": 144000,
+      "weight_min": 1.0189596693603091,
+      "weight_max": 1.370423595374051,
+      "weight_mean": 1.1412672220905966
+    },
+    "D-frozen": {
+      "primary_rate": 0.9208052324655273,
+      "replacement_rate": 0.9007695159855205,
+      "completed": 2167.1,
+      "collisions": 1222.7,
+      "travel": 9230.1,
+      "wasted_travel": 1920.2,
+      "reads": 3817.2,
+      "writes": 3394.3,
+      "edge_updates": 288000,
+      "receipt_writes": 288000,
+      "eligibility_reads": 13572.8,
+      "feedback_updates": 4776,
+      "relaxations": 48000,
+      "weight_min": 0.996271255467818,
+      "weight_max": 1.2086490003813768,
+      "weight_mean": 1.0654866348659795
+    },
+    "D-reset": {
+      "primary_rate": 0.9208052324655273,
+      "replacement_rate": 0.9002513812704946,
+      "completed": 2166.1,
+      "collisions": 1225.1,
+      "travel": 9230.2,
+      "wasted_travel": 1923.4,
+      "reads": 3818,
+      "writes": 3395.9,
+      "edge_updates": 288000,
+      "receipt_writes": 288000,
+      "eligibility_reads": 13572.8,
+      "feedback_updates": 13526.4,
+      "relaxations": 144000,
+      "weight_min": 1.0015546972462008,
+      "weight_max": 1.2088761851007561,
+      "weight_mean": 1.0717916040615791
+    }
+  },
+  "contrasts": [
+    {
+      "a": "D",
+      "b": "C",
+      "metric": "primary_rate",
+      "mean": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n": 10
+    },
+    {
+      "a": "D",
+      "b": "D-frozen",
+      "metric": "primary_rate",
+      "mean": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n": 10
+    },
+    {
+      "a": "D",
+      "b": "D-reset",
+      "metric": "replacement_rate",
+      "mean": -0.0012621420066428525,
+      "ci95": [
+        -0.003551666216947691,
+        0.00027122113477899833
+      ],
+      "n": 10
+    }
+  ],
+  "source_hashes": {
+    "SPECIFICATION.md": "d33a168035a561d5e3bc4c9af5b17c3348ad2e5d1719c5300ee56bdfbd76a68a",
+    "study.py": "3d732c4b80e9d15b86a08f401c8a5cc20f53c5789fc285194048f094c0d5716f",
+    "medium.py": "e9b11900a9328526e2988ef35cae16a1229e50a310d934357a75cb65e9d1c80c",
+    "test_medium.py": "6fef551053091a193df44e5b4b456595bbcd3c2b710bd32a87baf67d149a76b7",
+    "run.py": "96899638593e94823bec8689d35647068218f2b4fe916909f969f2e22d0084e3"
+  }
+}

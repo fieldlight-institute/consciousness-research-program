@@ -1,0 +1,18 @@
+{
+  "prior_artifacts_unchanged": 509,
+  "independent_grid_matches": 162,
+  "demonstration_witnesses_checked": 6,
+  "dependency_sha256": "f36f02fe5f2c5b6981c32eb77bcaf93d0099b91d0cc834ba0e8057ce46228e55",
+  "sources": {
+    "SPECIFICATION.md": "907760b022898ddc7d1ed93a086a619a1a9c2b3488a35f5d8a7cf76102e98ea3",
+    "service.py": "d659d5d48be02d4d415cbdf0963d44858ed41d63a88a316e080ddec33abcffb8",
+    "test_service.py": "6dae7d179a35b5fd5321243b9804c22b9b04881b09ca6ac0e73065622c652ce2",
+    "demo.py": "8b748b4c304ef3498178e01e0c9c705d305de0241152e787fa6896a23dd9cfec"
+  },
+  "outputs": {
+    "summary.json": "a5d950bcc9b2b13e556905f88b4a8be63660fbc095d4c48700c6fc1a464084a8",
+    "grid.json": "9101730d13bb6b3325161e116b9d882e05a86bc2bff3d2e0c06613073760f5c2",
+    "demonstrations.json": "b01d8049d556609ee5b182fd78069ea013f0389e79f6bffd91fabe18524f9c38",
+    "freeze.json": "6035c0f6cdc869a67d52924a86fb4921c24c21a9058c382427813560a6f43c90"
+  }
+}

@@ -1,0 +1,8149 @@
+{
+  "seed": 18025,
+  "scenarios": [
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 0,
+        "1-0": 0,
+        "1-1": 0,
+        "2-0": 0,
+        "2-1": 0
+      },
+      "weight": 0.177978515625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 6,
+          "last_finish": 5,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 6,
+          "last_finish": 5,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 0,
+        "1-0": 0,
+        "1-1": 0,
+        "2-0": 0,
+        "2-1": 1
+      },
+      "weight": 0.059326171875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 6,
+          "last_finish": 5,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 6,
+          "last_finish": 5,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 0,
+        "1-0": 0,
+        "1-1": 0,
+        "2-0": 1,
+        "2-1": 0
+      },
+      "weight": 0.059326171875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 6,
+          "last_finish": 5,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 6,
+          "last_finish": 5,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 0,
+        "1-0": 0,
+        "1-1": 0,
+        "2-0": 1,
+        "2-1": 1
+      },
+      "weight": 0.019775390625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 6,
+          "last_finish": 5,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 6,
+          "last_finish": 5,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 0,
+        "1-0": 0,
+        "1-1": 1,
+        "2-0": 0,
+        "2-1": 0
+      },
+      "weight": 0.059326171875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 0,
+        "1-0": 0,
+        "1-1": 1,
+        "2-0": 0,
+        "2-1": 1
+      },
+      "weight": 0.019775390625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 0,
+        "1-0": 0,
+        "1-1": 1,
+        "2-0": 1,
+        "2-1": 0
+      },
+      "weight": 0.019775390625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 0,
+        "1-0": 0,
+        "1-1": 1,
+        "2-0": 1,
+        "2-1": 1
+      },
+      "weight": 0.006591796875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 0,
+        "1-0": 1,
+        "1-1": 0,
+        "2-0": 0,
+        "2-1": 0
+      },
+      "weight": 0.059326171875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 0,
+        "1-0": 1,
+        "1-1": 0,
+        "2-0": 0,
+        "2-1": 1
+      },
+      "weight": 0.019775390625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 0,
+        "1-0": 1,
+        "1-1": 0,
+        "2-0": 1,
+        "2-1": 0
+      },
+      "weight": 0.019775390625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 0,
+        "1-0": 1,
+        "1-1": 0,
+        "2-0": 1,
+        "2-1": 1
+      },
+      "weight": 0.006591796875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 0,
+        "1-0": 1,
+        "1-1": 1,
+        "2-0": 0,
+        "2-1": 0
+      },
+      "weight": 0.019775390625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 0,
+        "1-0": 1,
+        "1-1": 1,
+        "2-0": 0,
+        "2-1": 1
+      },
+      "weight": 0.006591796875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 0,
+        "1-0": 1,
+        "1-1": 1,
+        "2-0": 1,
+        "2-1": 0
+      },
+      "weight": 0.006591796875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 0,
+        "1-0": 1,
+        "1-1": 1,
+        "2-0": 1,
+        "2-1": 1
+      },
+      "weight": 0.002197265625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 1,
+        "1-0": 0,
+        "1-1": 0,
+        "2-0": 0,
+        "2-1": 0
+      },
+      "weight": 0.059326171875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 5,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 5,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 1,
+        "1-0": 0,
+        "1-1": 0,
+        "2-0": 0,
+        "2-1": 1
+      },
+      "weight": 0.019775390625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 5,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 5,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 1,
+        "1-0": 0,
+        "1-1": 0,
+        "2-0": 1,
+        "2-1": 0
+      },
+      "weight": 0.019775390625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 5,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 5,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 1,
+        "1-0": 0,
+        "1-1": 0,
+        "2-0": 1,
+        "2-1": 1
+      },
+      "weight": 0.006591796875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 5,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 5,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 1,
+        "1-0": 0,
+        "1-1": 1,
+        "2-0": 0,
+        "2-1": 0
+      },
+      "weight": 0.019775390625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 1,
+        "1-0": 0,
+        "1-1": 1,
+        "2-0": 0,
+        "2-1": 1
+      },
+      "weight": 0.006591796875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 1,
+        "1-0": 0,
+        "1-1": 1,
+        "2-0": 1,
+        "2-1": 0
+      },
+      "weight": 0.006591796875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 1,
+        "1-0": 0,
+        "1-1": 1,
+        "2-0": 1,
+        "2-1": 1
+      },
+      "weight": 0.002197265625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 1,
+        "1-0": 1,
+        "1-1": 0,
+        "2-0": 0,
+        "2-1": 0
+      },
+      "weight": 0.019775390625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 1,
+        "1-0": 1,
+        "1-1": 0,
+        "2-0": 0,
+        "2-1": 1
+      },
+      "weight": 0.006591796875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 1,
+        "1-0": 1,
+        "1-1": 0,
+        "2-0": 1,
+        "2-1": 0
+      },
+      "weight": 0.006591796875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 1,
+        "1-0": 1,
+        "1-1": 0,
+        "2-0": 1,
+        "2-1": 1
+      },
+      "weight": 0.002197265625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 1,
+        "1-0": 1,
+        "1-1": 1,
+        "2-0": 0,
+        "2-1": 0
+      },
+      "weight": 0.006591796875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 1,
+        "1-0": 1,
+        "1-1": 1,
+        "2-0": 0,
+        "2-1": 1
+      },
+      "weight": 0.002197265625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 1,
+        "1-0": 1,
+        "1-1": 1,
+        "2-0": 1,
+        "2-1": 0
+      },
+      "weight": 0.002197265625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 0,
+        "0-1": 1,
+        "1-0": 1,
+        "1-1": 1,
+        "2-0": 1,
+        "2-1": 1
+      },
+      "weight": 0.000732421875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 2
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 2,
+              "start": 2,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 0,
+        "1-0": 0,
+        "1-1": 0,
+        "2-0": 0,
+        "2-1": 0
+      },
+      "weight": 0.059326171875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 5,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 5,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 0,
+        "1-0": 0,
+        "1-1": 0,
+        "2-0": 0,
+        "2-1": 1
+      },
+      "weight": 0.019775390625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 5,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 5,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 0,
+        "1-0": 0,
+        "1-1": 0,
+        "2-0": 1,
+        "2-1": 0
+      },
+      "weight": 0.019775390625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 5,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 5,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 0,
+        "1-0": 0,
+        "1-1": 0,
+        "2-0": 1,
+        "2-1": 1
+      },
+      "weight": 0.006591796875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 5,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 7,
+          "last_finish": 5,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 0,
+        "1-0": 0,
+        "1-1": 1,
+        "2-0": 0,
+        "2-1": 0
+      },
+      "weight": 0.019775390625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 0,
+        "1-0": 0,
+        "1-1": 1,
+        "2-0": 0,
+        "2-1": 1
+      },
+      "weight": 0.006591796875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 0,
+        "1-0": 0,
+        "1-1": 1,
+        "2-0": 1,
+        "2-1": 0
+      },
+      "weight": 0.006591796875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 0,
+        "1-0": 0,
+        "1-1": 1,
+        "2-0": 1,
+        "2-1": 1
+      },
+      "weight": 0.002197265625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 0,
+        "1-0": 1,
+        "1-1": 0,
+        "2-0": 0,
+        "2-1": 0
+      },
+      "weight": 0.019775390625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 0,
+        "1-0": 1,
+        "1-1": 0,
+        "2-0": 0,
+        "2-1": 1
+      },
+      "weight": 0.006591796875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 0,
+        "1-0": 1,
+        "1-1": 0,
+        "2-0": 1,
+        "2-1": 0
+      },
+      "weight": 0.006591796875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 0,
+        "1-0": 1,
+        "1-1": 0,
+        "2-0": 1,
+        "2-1": 1
+      },
+      "weight": 0.002197265625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 0,
+        "1-0": 1,
+        "1-1": 1,
+        "2-0": 0,
+        "2-1": 0
+      },
+      "weight": 0.006591796875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 0,
+        "1-0": 1,
+        "1-1": 1,
+        "2-0": 0,
+        "2-1": 1
+      },
+      "weight": 0.002197265625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 0,
+        "1-0": 1,
+        "1-1": 1,
+        "2-0": 1,
+        "2-1": 0
+      },
+      "weight": 0.002197265625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 0,
+        "1-0": 1,
+        "1-1": 1,
+        "2-0": 1,
+        "2-1": 1
+      },
+      "weight": 0.000732421875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 1,
+        "1-0": 0,
+        "1-1": 0,
+        "2-0": 0,
+        "2-1": 0
+      },
+      "weight": 0.019775390625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 1,
+        "1-0": 0,
+        "1-1": 0,
+        "2-0": 0,
+        "2-1": 1
+      },
+      "weight": 0.006591796875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 1,
+        "1-0": 0,
+        "1-1": 0,
+        "2-0": 1,
+        "2-1": 0
+      },
+      "weight": 0.006591796875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 1,
+        "1-0": 0,
+        "1-1": 0,
+        "2-0": 1,
+        "2-1": 1
+      },
+      "weight": 0.002197265625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 8,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 1,
+        "1-0": 0,
+        "1-1": 1,
+        "2-0": 0,
+        "2-1": 0
+      },
+      "weight": 0.006591796875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 1,
+        "1-0": 0,
+        "1-1": 1,
+        "2-0": 0,
+        "2-1": 1
+      },
+      "weight": 0.002197265625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 1,
+        "1-0": 0,
+        "1-1": 1,
+        "2-0": 1,
+        "2-1": 0
+      },
+      "weight": 0.002197265625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 1,
+        "1-0": 0,
+        "1-1": 1,
+        "2-0": 1,
+        "2-1": 1
+      },
+      "weight": 0.000732421875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 3
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 1,
+        "1-0": 1,
+        "1-1": 0,
+        "2-0": 0,
+        "2-1": 0
+      },
+      "weight": 0.006591796875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 1,
+        "1-0": 1,
+        "1-1": 0,
+        "2-0": 0,
+        "2-1": 1
+      },
+      "weight": 0.002197265625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 1,
+        "1-0": 1,
+        "1-1": 0,
+        "2-0": 1,
+        "2-1": 0
+      },
+      "weight": 0.002197265625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 1,
+        "1-0": 1,
+        "1-1": 0,
+        "2-0": 1,
+        "2-1": 1
+      },
+      "weight": 0.000732421875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 9,
+          "last_finish": 6,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 1,
+        "1-0": 1,
+        "1-1": 1,
+        "2-0": 0,
+        "2-1": 0
+      },
+      "weight": 0.002197265625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 10,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 10,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 1,
+        "1-0": 1,
+        "1-1": 1,
+        "2-0": 0,
+        "2-1": 1
+      },
+      "weight": 0.000732421875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 10,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 10,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 1,
+        "1-0": 1,
+        "1-1": 1,
+        "2-0": 1,
+        "2-1": 0
+      },
+      "weight": 0.000732421875,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 10,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 10,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "delays": {
+        "0-0": 1,
+        "0-1": 1,
+        "1-0": 1,
+        "1-1": 1,
+        "2-0": 1,
+        "2-1": 1
+      },
+      "weight": 0.000244140625,
+      "results": {
+        "append": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 10,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        },
+        "revise": {
+          "completed": 2,
+          "completion_fraction": 0.6666666666666666,
+          "completed_jobs": [
+            "0",
+            "1"
+          ],
+          "late_operations": [],
+          "work_ticks": 10,
+          "last_finish": 7,
+          "events": [
+            {
+              "operation": "0-0",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 0,
+              "start": 1,
+              "finish": 3
+            },
+            {
+              "operation": "0-1",
+              "crew": [
+                "a"
+              ],
+              "committed": 0,
+              "origin": 1,
+              "depart": 3,
+              "start": 3,
+              "finish": 6
+            },
+            {
+              "operation": "1-0",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 2,
+              "depart": 0,
+              "start": 2,
+              "finish": 4
+            },
+            {
+              "operation": "1-1",
+              "crew": [
+                "b"
+              ],
+              "committed": 0,
+              "origin": 0,
+              "depart": 4,
+              "start": 4,
+              "finish": 7
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "expectations": {
+    "append": {
+      "completed": 2.0,
+      "completion_fraction": 0.6666666666666666,
+      "late_operations": 0.0,
+      "work_ticks": 7.0,
+      "last_finish": 5.53515625
+    },
+    "revise": {
+      "completed": 2.0,
+      "completion_fraction": 0.6666666666666666,
+      "late_operations": 0.0,
+      "work_ticks": 7.0,
+      "last_finish": 5.53515625
+    }
+  }
+}

@@ -1,0 +1,607 @@
+[
+  {
+    "name": "individually feasible but competing",
+    "agents": [
+      {
+        "id": "a",
+        "site": 0,
+        "rates": {
+          "X": 1,
+          "Y": 1
+        },
+        "refused": []
+      }
+    ],
+    "operations": [
+      {
+        "id": "0",
+        "site": 0,
+        "release": 0,
+        "deadline": 1,
+        "demands": [
+          [
+            "X",
+            1
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "1",
+        "site": 0,
+        "release": 0,
+        "deadline": 1,
+        "demands": [
+          [
+            "X",
+            1
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "jobs": {
+      "0": [
+        "0"
+      ],
+      "1": [
+        "1"
+      ]
+    },
+    "limits": {},
+    "result": {
+      "status": "exact",
+      "lower": 1,
+      "upper": 1,
+      "completed_jobs": [
+        "0"
+      ],
+      "partial_jobs": [],
+      "witness": [
+        {
+          "operation": "0",
+          "crew": [
+            "a"
+          ],
+          "start": 0,
+          "finish": 1
+        }
+      ],
+      "accounting": {
+        "work_occupancy_ticks": 1,
+        "travel_ticks": 0,
+        "elapsed_ticks": 1
+      },
+      "nodes": 5,
+      "candidate_closures": 3,
+      "tested_candidates": [
+        {
+          "operations": [
+            "0",
+            "1"
+          ],
+          "potential_service": 2,
+          "status": "infeasible",
+          "nodes": 3,
+          "search_complete": true
+        },
+        {
+          "operations": [
+            "0"
+          ],
+          "potential_service": 1,
+          "status": "feasible",
+          "nodes": 2,
+          "search_complete": true
+        }
+      ],
+      "unresolved_service_bounds": []
+    }
+  },
+  {
+    "name": "partial composite earns no completion",
+    "agents": [
+      {
+        "id": "a",
+        "site": 0,
+        "rates": {
+          "X": 1,
+          "Y": 1
+        },
+        "refused": []
+      }
+    ],
+    "operations": [
+      {
+        "id": "x",
+        "site": 0,
+        "release": 0,
+        "deadline": 1,
+        "demands": [
+          [
+            "X",
+            1
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "y",
+        "site": 0,
+        "release": 0,
+        "deadline": 1,
+        "demands": [
+          [
+            "Y",
+            1
+          ]
+        ],
+        "predecessors": [
+          "x"
+        ]
+      }
+    ],
+    "jobs": {
+      "whole": [
+        "x",
+        "y"
+      ]
+    },
+    "limits": {},
+    "result": {
+      "status": "exact",
+      "lower": 0,
+      "upper": 0,
+      "completed_jobs": [],
+      "partial_jobs": [],
+      "witness": [],
+      "accounting": {
+        "work_occupancy_ticks": 0,
+        "travel_ticks": 0,
+        "elapsed_ticks": 0
+      },
+      "nodes": 2,
+      "candidate_closures": 1,
+      "tested_candidates": [
+        {
+          "operations": [
+            "x",
+            "y"
+          ],
+          "potential_service": 1,
+          "status": "infeasible",
+          "nodes": 2,
+          "search_complete": true
+        }
+      ],
+      "unresolved_service_bounds": []
+    }
+  },
+  {
+    "name": "prerequisite finishes another whole job",
+    "agents": [
+      {
+        "id": "a",
+        "site": 0,
+        "rates": {
+          "X": 1,
+          "Y": 1
+        },
+        "refused": []
+      }
+    ],
+    "operations": [
+      {
+        "id": "x",
+        "site": 0,
+        "release": 0,
+        "deadline": 2,
+        "demands": [
+          [
+            "X",
+            1
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "y",
+        "site": 0,
+        "release": 0,
+        "deadline": 2,
+        "demands": [
+          [
+            "Y",
+            1
+          ]
+        ],
+        "predecessors": [
+          "x"
+        ]
+      }
+    ],
+    "jobs": {
+      "first": [
+        "x"
+      ],
+      "second": [
+        "y"
+      ]
+    },
+    "limits": {},
+    "result": {
+      "status": "exact",
+      "lower": 2,
+      "upper": 2,
+      "completed_jobs": [
+        "first",
+        "second"
+      ],
+      "partial_jobs": [],
+      "witness": [
+        {
+          "operation": "x",
+          "crew": [
+            "a"
+          ],
+          "start": 0,
+          "finish": 1
+        },
+        {
+          "operation": "y",
+          "crew": [
+            "a"
+          ],
+          "start": 1,
+          "finish": 2
+        }
+      ],
+      "accounting": {
+        "work_occupancy_ticks": 2,
+        "travel_ticks": 0,
+        "elapsed_ticks": 2
+      },
+      "nodes": 3,
+      "candidate_closures": 2,
+      "tested_candidates": [
+        {
+          "operations": [
+            "x",
+            "y"
+          ],
+          "potential_service": 2,
+          "status": "feasible",
+          "nodes": 3,
+          "search_complete": true
+        }
+      ],
+      "unresolved_service_bounds": []
+    }
+  },
+  {
+    "name": "prerequisite remains a partial job",
+    "agents": [
+      {
+        "id": "a",
+        "site": 0,
+        "rates": {
+          "X": 1,
+          "Y": 1
+        },
+        "refused": []
+      }
+    ],
+    "operations": [
+      {
+        "id": "a1",
+        "site": 0,
+        "release": 0,
+        "deadline": 2,
+        "demands": [
+          [
+            "X",
+            1
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "a2",
+        "site": 0,
+        "release": 0,
+        "deadline": 2,
+        "demands": [
+          [
+            "Z",
+            1
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "b",
+        "site": 0,
+        "release": 0,
+        "deadline": 2,
+        "demands": [
+          [
+            "Y",
+            1
+          ]
+        ],
+        "predecessors": [
+          "a1"
+        ]
+      }
+    ],
+    "jobs": {
+      "A": [
+        "a1",
+        "a2"
+      ],
+      "B": [
+        "b"
+      ]
+    },
+    "limits": {},
+    "result": {
+      "status": "exact",
+      "lower": 1,
+      "upper": 1,
+      "completed_jobs": [
+        "B"
+      ],
+      "partial_jobs": [
+        "A"
+      ],
+      "witness": [
+        {
+          "operation": "a1",
+          "crew": [
+            "a"
+          ],
+          "start": 0,
+          "finish": 1
+        },
+        {
+          "operation": "b",
+          "crew": [
+            "a"
+          ],
+          "start": 1,
+          "finish": 2
+        }
+      ],
+      "accounting": {
+        "work_occupancy_ticks": 2,
+        "travel_ticks": 0,
+        "elapsed_ticks": 2
+      },
+      "nodes": 8,
+      "candidate_closures": 3,
+      "tested_candidates": [
+        {
+          "operations": [
+            "a1",
+            "a2",
+            "b"
+          ],
+          "potential_service": 2,
+          "status": "infeasible",
+          "nodes": 3,
+          "search_complete": true
+        },
+        {
+          "operations": [
+            "a1",
+            "a2"
+          ],
+          "potential_service": 1,
+          "status": "infeasible",
+          "nodes": 2,
+          "search_complete": true
+        },
+        {
+          "operations": [
+            "a1",
+            "b"
+          ],
+          "potential_service": 1,
+          "status": "feasible",
+          "nodes": 3,
+          "search_complete": true
+        }
+      ],
+      "unresolved_service_bounds": []
+    }
+  },
+  {
+    "name": "global search exhausted",
+    "agents": [
+      {
+        "id": "a",
+        "site": 0,
+        "rates": {
+          "X": 1,
+          "Y": 1
+        },
+        "refused": []
+      }
+    ],
+    "operations": [
+      {
+        "id": "0",
+        "site": 0,
+        "release": 0,
+        "deadline": 2,
+        "demands": [
+          [
+            "X",
+            1
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "1",
+        "site": 0,
+        "release": 0,
+        "deadline": 2,
+        "demands": [
+          [
+            "X",
+            1
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "jobs": {
+      "0": [
+        "0"
+      ],
+      "1": [
+        "1"
+      ]
+    },
+    "limits": {
+      "node_limit": 1
+    },
+    "result": {
+      "status": "bounded",
+      "lower": 0,
+      "upper": 2,
+      "completed_jobs": [],
+      "partial_jobs": [],
+      "witness": [],
+      "accounting": {
+        "work_occupancy_ticks": 0,
+        "travel_ticks": 0,
+        "elapsed_ticks": 0
+      },
+      "nodes": 1,
+      "candidate_closures": 3,
+      "tested_candidates": [
+        {
+          "operations": [
+            "0",
+            "1"
+          ],
+          "potential_service": 2,
+          "status": "unknown",
+          "nodes": 1,
+          "search_complete": false
+        }
+      ],
+      "unresolved_service_bounds": [
+        2,
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "name": "positive witness unresolved optimum",
+    "agents": [
+      {
+        "id": "a",
+        "site": 0,
+        "rates": {
+          "X": 1,
+          "Y": 1
+        },
+        "refused": []
+      }
+    ],
+    "operations": [
+      {
+        "id": "0",
+        "site": 0,
+        "release": 0,
+        "deadline": 2,
+        "demands": [
+          [
+            "X",
+            1
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "1",
+        "site": 0,
+        "release": 0,
+        "deadline": 2,
+        "demands": [
+          [
+            "X",
+            1
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "jobs": {
+      "0": [
+        "0"
+      ],
+      "1": [
+        "1"
+      ]
+    },
+    "limits": {
+      "node_limit": 10,
+      "per_candidate_limit": 2
+    },
+    "result": {
+      "status": "bounded",
+      "lower": 1,
+      "upper": 2,
+      "completed_jobs": [
+        "0"
+      ],
+      "partial_jobs": [],
+      "witness": [
+        {
+          "operation": "0",
+          "crew": [
+            "a"
+          ],
+          "start": 0,
+          "finish": 1
+        }
+      ],
+      "accounting": {
+        "work_occupancy_ticks": 1,
+        "travel_ticks": 0,
+        "elapsed_ticks": 1
+      },
+      "nodes": 4,
+      "candidate_closures": 3,
+      "tested_candidates": [
+        {
+          "operations": [
+            "0",
+            "1"
+          ],
+          "potential_service": 2,
+          "status": "unknown",
+          "nodes": 2,
+          "search_complete": false
+        },
+        {
+          "operations": [
+            "0"
+          ],
+          "potential_service": 1,
+          "status": "feasible",
+          "nodes": 2,
+          "search_complete": true
+        }
+      ],
+      "unresolved_service_bounds": [
+        2
+      ]
+    }
+  }
+]

@@ -1,0 +1,4634 @@
+[
+  {
+    "kind": "single",
+    "deadline": 1,
+    "site": 0,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "task",
+        "site": 0,
+        "release": 0,
+        "deadline": 1,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "specialist-only",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 1,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 1
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 1,
+          "travel_ticks": 0,
+          "elapsed_ticks": 1
+        }
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "single",
+    "deadline": 1,
+    "site": 0,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "task",
+        "site": 0,
+        "release": 0,
+        "deadline": 1,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "specialist-only",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 1,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 1
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 1,
+          "travel_ticks": 0,
+          "elapsed_ticks": 1
+        }
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "single",
+    "deadline": 1,
+    "site": 2,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "task",
+        "site": 2,
+        "release": 0,
+        "deadline": 1,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "neither",
+    "results": {
+      "specialists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "single",
+    "deadline": 1,
+    "site": 2,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "task",
+        "site": 2,
+        "release": 0,
+        "deadline": 1,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "neither",
+    "results": {
+      "specialists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "single",
+    "deadline": 2,
+    "site": 0,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "task",
+        "site": 0,
+        "release": 0,
+        "deadline": 2,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 1,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 1
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 1,
+          "travel_ticks": 0,
+          "elapsed_ticks": 1
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 2,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 2
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 0,
+          "elapsed_ticks": 2
+        }
+      }
+    }
+  },
+  {
+    "kind": "single",
+    "deadline": 2,
+    "site": 0,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "task",
+        "site": 0,
+        "release": 0,
+        "deadline": 2,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 1,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 1
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 1,
+          "travel_ticks": 0,
+          "elapsed_ticks": 1
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 2,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 2
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 0,
+          "elapsed_ticks": 2
+        }
+      }
+    }
+  },
+  {
+    "kind": "single",
+    "deadline": 2,
+    "site": 2,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "task",
+        "site": 2,
+        "release": 0,
+        "deadline": 2,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "neither",
+    "results": {
+      "specialists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "single",
+    "deadline": 2,
+    "site": 2,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "task",
+        "site": 2,
+        "release": 0,
+        "deadline": 2,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "neither",
+    "results": {
+      "specialists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "single",
+    "deadline": 3,
+    "site": 0,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "task",
+        "site": 0,
+        "release": 0,
+        "deadline": 3,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 1,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 1
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 1,
+          "travel_ticks": 0,
+          "elapsed_ticks": 1
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 2,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 2
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 0,
+          "elapsed_ticks": 2
+        }
+      }
+    }
+  },
+  {
+    "kind": "single",
+    "deadline": 3,
+    "site": 0,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "task",
+        "site": 0,
+        "release": 0,
+        "deadline": 3,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 1,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 1
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 1,
+          "travel_ticks": 0,
+          "elapsed_ticks": 1
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 2,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 2
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 0,
+          "elapsed_ticks": 2
+        }
+      }
+    }
+  },
+  {
+    "kind": "single",
+    "deadline": 3,
+    "site": 2,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "task",
+        "site": 2,
+        "release": 0,
+        "deadline": 3,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "specialist-only",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 3,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 2,
+            "finish": 3
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 1,
+          "travel_ticks": 2,
+          "elapsed_ticks": 3
+        }
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "single",
+    "deadline": 3,
+    "site": 2,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "task",
+        "site": 2,
+        "release": 0,
+        "deadline": 3,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "specialist-only",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 3,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 2,
+            "finish": 3
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 1,
+          "travel_ticks": 2,
+          "elapsed_ticks": 3
+        }
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "single",
+    "deadline": 4,
+    "site": 0,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "task",
+        "site": 0,
+        "release": 0,
+        "deadline": 4,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 1,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 1
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 1,
+          "travel_ticks": 0,
+          "elapsed_ticks": 1
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 2,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 2
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 0,
+          "elapsed_ticks": 2
+        }
+      }
+    }
+  },
+  {
+    "kind": "single",
+    "deadline": 4,
+    "site": 0,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "task",
+        "site": 0,
+        "release": 0,
+        "deadline": 4,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 1,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 1
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 1,
+          "travel_ticks": 0,
+          "elapsed_ticks": 1
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 2,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 2
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 0,
+          "elapsed_ticks": 2
+        }
+      }
+    }
+  },
+  {
+    "kind": "single",
+    "deadline": 4,
+    "site": 2,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "task",
+        "site": 2,
+        "release": 0,
+        "deadline": 4,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 3,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 2,
+            "finish": 3
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 1,
+          "travel_ticks": 2,
+          "elapsed_ticks": 3
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 4,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 2,
+            "finish": 4
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 2,
+          "elapsed_ticks": 4
+        }
+      }
+    }
+  },
+  {
+    "kind": "single",
+    "deadline": 4,
+    "site": 2,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "task",
+        "site": 2,
+        "release": 0,
+        "deadline": 4,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 3,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 2,
+            "finish": 3
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 1,
+          "travel_ticks": 2,
+          "elapsed_ticks": 3
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 4,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 2,
+            "finish": 4
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 2,
+          "elapsed_ticks": 4
+        }
+      }
+    }
+  },
+  {
+    "kind": "single",
+    "deadline": 5,
+    "site": 0,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "task",
+        "site": 0,
+        "release": 0,
+        "deadline": 5,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 1,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 1
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 1,
+          "travel_ticks": 0,
+          "elapsed_ticks": 1
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 2,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 2
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 0,
+          "elapsed_ticks": 2
+        }
+      }
+    }
+  },
+  {
+    "kind": "single",
+    "deadline": 5,
+    "site": 0,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "task",
+        "site": 0,
+        "release": 0,
+        "deadline": 5,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 1,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 1
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 1,
+          "travel_ticks": 0,
+          "elapsed_ticks": 1
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 2,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 2
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 0,
+          "elapsed_ticks": 2
+        }
+      }
+    }
+  },
+  {
+    "kind": "single",
+    "deadline": 5,
+    "site": 2,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "task",
+        "site": 2,
+        "release": 0,
+        "deadline": 5,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 3,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 2,
+            "finish": 3
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 1,
+          "travel_ticks": 2,
+          "elapsed_ticks": 3
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 4,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 2,
+            "finish": 4
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 2,
+          "elapsed_ticks": 4
+        }
+      }
+    }
+  },
+  {
+    "kind": "single",
+    "deadline": 5,
+    "site": 2,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "task",
+        "site": 2,
+        "release": 0,
+        "deadline": 5,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 3,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 2,
+            "finish": 3
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 1,
+          "travel_ticks": 2,
+          "elapsed_ticks": 3
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 4,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 2,
+            "finish": 4
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 2,
+          "elapsed_ticks": 4
+        }
+      }
+    }
+  },
+  {
+    "kind": "single",
+    "deadline": 6,
+    "site": 0,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "task",
+        "site": 0,
+        "release": 0,
+        "deadline": 6,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 1,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 1
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 1,
+          "travel_ticks": 0,
+          "elapsed_ticks": 1
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 2,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 2
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 0,
+          "elapsed_ticks": 2
+        }
+      }
+    }
+  },
+  {
+    "kind": "single",
+    "deadline": 6,
+    "site": 0,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "task",
+        "site": 0,
+        "release": 0,
+        "deadline": 6,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 1,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 1
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 1,
+          "travel_ticks": 0,
+          "elapsed_ticks": 1
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 2,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 2
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 0,
+          "elapsed_ticks": 2
+        }
+      }
+    }
+  },
+  {
+    "kind": "single",
+    "deadline": 6,
+    "site": 2,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "task",
+        "site": 2,
+        "release": 0,
+        "deadline": 6,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 3,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 2,
+            "finish": 3
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 1,
+          "travel_ticks": 2,
+          "elapsed_ticks": 3
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 4,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 2,
+            "finish": 4
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 2,
+          "elapsed_ticks": 4
+        }
+      }
+    }
+  },
+  {
+    "kind": "single",
+    "deadline": 6,
+    "site": 2,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "task",
+        "site": 2,
+        "release": 0,
+        "deadline": 6,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 3,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 2,
+            "finish": 3
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 1,
+          "travel_ticks": 2,
+          "elapsed_ticks": 3
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 4,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a"
+            ],
+            "start": 2,
+            "finish": 4
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 2,
+          "elapsed_ticks": 4
+        }
+      }
+    }
+  },
+  {
+    "kind": "sequential",
+    "deadline": 1,
+    "site": 0,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "x",
+        "site": 0,
+        "release": 0,
+        "deadline": 1,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "y",
+        "site": 0,
+        "release": 0,
+        "deadline": 1,
+        "demands": [
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": [
+          "x"
+        ]
+      }
+    ],
+    "category": "neither",
+    "results": {
+      "specialists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": null,
+        "witness": null
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "sequential",
+    "deadline": 1,
+    "site": 0,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "x",
+        "site": 0,
+        "release": 0,
+        "deadline": 1,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "y",
+        "site": 0,
+        "release": 0,
+        "deadline": 1,
+        "demands": [
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": [
+          "x"
+        ]
+      }
+    ],
+    "category": "neither",
+    "results": {
+      "specialists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": null,
+        "witness": null
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "sequential",
+    "deadline": 1,
+    "site": 2,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "x",
+        "site": 2,
+        "release": 0,
+        "deadline": 1,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "y",
+        "site": 2,
+        "release": 0,
+        "deadline": 1,
+        "demands": [
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": [
+          "x"
+        ]
+      }
+    ],
+    "category": "neither",
+    "results": {
+      "specialists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "sequential",
+    "deadline": 1,
+    "site": 2,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "x",
+        "site": 2,
+        "release": 0,
+        "deadline": 1,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "y",
+        "site": 2,
+        "release": 0,
+        "deadline": 1,
+        "demands": [
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": [
+          "x"
+        ]
+      }
+    ],
+    "category": "neither",
+    "results": {
+      "specialists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "sequential",
+    "deadline": 2,
+    "site": 0,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "x",
+        "site": 0,
+        "release": 0,
+        "deadline": 2,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "y",
+        "site": 0,
+        "release": 0,
+        "deadline": 2,
+        "demands": [
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": [
+          "x"
+        ]
+      }
+    ],
+    "category": "specialist-only",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 3,
+        "minimum_makespan": 2,
+        "witness": [
+          {
+            "operation": "x",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 1
+          },
+          {
+            "operation": "y",
+            "crew": [
+              "b"
+            ],
+            "start": 1,
+            "finish": 2
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 0,
+          "elapsed_ticks": 2
+        }
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 3,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "sequential",
+    "deadline": 2,
+    "site": 0,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "x",
+        "site": 0,
+        "release": 0,
+        "deadline": 2,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "y",
+        "site": 0,
+        "release": 0,
+        "deadline": 2,
+        "demands": [
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": [
+          "x"
+        ]
+      }
+    ],
+    "category": "neither",
+    "results": {
+      "specialists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": null,
+        "witness": null
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 3,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "sequential",
+    "deadline": 2,
+    "site": 2,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "x",
+        "site": 2,
+        "release": 0,
+        "deadline": 2,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "y",
+        "site": 2,
+        "release": 0,
+        "deadline": 2,
+        "demands": [
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": [
+          "x"
+        ]
+      }
+    ],
+    "category": "neither",
+    "results": {
+      "specialists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "sequential",
+    "deadline": 2,
+    "site": 2,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "x",
+        "site": 2,
+        "release": 0,
+        "deadline": 2,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "y",
+        "site": 2,
+        "release": 0,
+        "deadline": 2,
+        "demands": [
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": [
+          "x"
+        ]
+      }
+    ],
+    "category": "neither",
+    "results": {
+      "specialists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "sequential",
+    "deadline": 3,
+    "site": 0,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "x",
+        "site": 0,
+        "release": 0,
+        "deadline": 3,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "y",
+        "site": 0,
+        "release": 0,
+        "deadline": 3,
+        "demands": [
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": [
+          "x"
+        ]
+      }
+    ],
+    "category": "specialist-only",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 3,
+        "minimum_makespan": 2,
+        "witness": [
+          {
+            "operation": "x",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 1
+          },
+          {
+            "operation": "y",
+            "crew": [
+              "b"
+            ],
+            "start": 1,
+            "finish": 2
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 0,
+          "elapsed_ticks": 2
+        }
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 3,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "sequential",
+    "deadline": 3,
+    "site": 0,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "x",
+        "site": 0,
+        "release": 0,
+        "deadline": 3,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "y",
+        "site": 0,
+        "release": 0,
+        "deadline": 3,
+        "demands": [
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": [
+          "x"
+        ]
+      }
+    ],
+    "category": "neither",
+    "results": {
+      "specialists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": null,
+        "witness": null
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 3,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "sequential",
+    "deadline": 3,
+    "site": 2,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "x",
+        "site": 2,
+        "release": 0,
+        "deadline": 3,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "y",
+        "site": 2,
+        "release": 0,
+        "deadline": 3,
+        "demands": [
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": [
+          "x"
+        ]
+      }
+    ],
+    "category": "neither",
+    "results": {
+      "specialists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": null,
+        "witness": null
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "sequential",
+    "deadline": 3,
+    "site": 2,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "x",
+        "site": 2,
+        "release": 0,
+        "deadline": 3,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "y",
+        "site": 2,
+        "release": 0,
+        "deadline": 3,
+        "demands": [
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": [
+          "x"
+        ]
+      }
+    ],
+    "category": "neither",
+    "results": {
+      "specialists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": null,
+        "witness": null
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "sequential",
+    "deadline": 4,
+    "site": 0,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "x",
+        "site": 0,
+        "release": 0,
+        "deadline": 4,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "y",
+        "site": 0,
+        "release": 0,
+        "deadline": 4,
+        "demands": [
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": [
+          "x"
+        ]
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 3,
+        "minimum_makespan": 2,
+        "witness": [
+          {
+            "operation": "x",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 1
+          },
+          {
+            "operation": "y",
+            "crew": [
+              "b"
+            ],
+            "start": 1,
+            "finish": 2
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 0,
+          "elapsed_ticks": 2
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 4,
+        "minimum_makespan": 4,
+        "witness": [
+          {
+            "operation": "x",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 2
+          },
+          {
+            "operation": "y",
+            "crew": [
+              "a"
+            ],
+            "start": 2,
+            "finish": 4
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 4,
+          "travel_ticks": 0,
+          "elapsed_ticks": 4
+        }
+      }
+    }
+  },
+  {
+    "kind": "sequential",
+    "deadline": 4,
+    "site": 0,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "x",
+        "site": 0,
+        "release": 0,
+        "deadline": 4,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "y",
+        "site": 0,
+        "release": 0,
+        "deadline": 4,
+        "demands": [
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": [
+          "x"
+        ]
+      }
+    ],
+    "category": "generalist-only",
+    "results": {
+      "specialists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": null,
+        "witness": null
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 4,
+        "minimum_makespan": 4,
+        "witness": [
+          {
+            "operation": "x",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 2
+          },
+          {
+            "operation": "y",
+            "crew": [
+              "a"
+            ],
+            "start": 2,
+            "finish": 4
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 4,
+          "travel_ticks": 0,
+          "elapsed_ticks": 4
+        }
+      }
+    }
+  },
+  {
+    "kind": "sequential",
+    "deadline": 4,
+    "site": 2,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "x",
+        "site": 2,
+        "release": 0,
+        "deadline": 4,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "y",
+        "site": 2,
+        "release": 0,
+        "deadline": 4,
+        "demands": [
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": [
+          "x"
+        ]
+      }
+    ],
+    "category": "specialist-only",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 3,
+        "minimum_makespan": 4,
+        "witness": [
+          {
+            "operation": "x",
+            "crew": [
+              "a"
+            ],
+            "start": 2,
+            "finish": 3
+          },
+          {
+            "operation": "y",
+            "crew": [
+              "b"
+            ],
+            "start": 3,
+            "finish": 4
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 4,
+          "elapsed_ticks": 4
+        }
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 3,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "sequential",
+    "deadline": 4,
+    "site": 2,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "x",
+        "site": 2,
+        "release": 0,
+        "deadline": 4,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "y",
+        "site": 2,
+        "release": 0,
+        "deadline": 4,
+        "demands": [
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": [
+          "x"
+        ]
+      }
+    ],
+    "category": "neither",
+    "results": {
+      "specialists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": null,
+        "witness": null
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 3,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "sequential",
+    "deadline": 5,
+    "site": 0,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "x",
+        "site": 0,
+        "release": 0,
+        "deadline": 5,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "y",
+        "site": 0,
+        "release": 0,
+        "deadline": 5,
+        "demands": [
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": [
+          "x"
+        ]
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 3,
+        "minimum_makespan": 2,
+        "witness": [
+          {
+            "operation": "x",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 1
+          },
+          {
+            "operation": "y",
+            "crew": [
+              "b"
+            ],
+            "start": 1,
+            "finish": 2
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 0,
+          "elapsed_ticks": 2
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 4,
+        "minimum_makespan": 4,
+        "witness": [
+          {
+            "operation": "x",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 2
+          },
+          {
+            "operation": "y",
+            "crew": [
+              "a"
+            ],
+            "start": 2,
+            "finish": 4
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 4,
+          "travel_ticks": 0,
+          "elapsed_ticks": 4
+        }
+      }
+    }
+  },
+  {
+    "kind": "sequential",
+    "deadline": 5,
+    "site": 0,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "x",
+        "site": 0,
+        "release": 0,
+        "deadline": 5,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "y",
+        "site": 0,
+        "release": 0,
+        "deadline": 5,
+        "demands": [
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": [
+          "x"
+        ]
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 3,
+        "minimum_makespan": 5,
+        "witness": [
+          {
+            "operation": "x",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 1
+          },
+          {
+            "operation": "y",
+            "crew": [
+              "b"
+            ],
+            "start": 4,
+            "finish": 5
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 0,
+          "elapsed_ticks": 5
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 4,
+        "minimum_makespan": 4,
+        "witness": [
+          {
+            "operation": "x",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 2
+          },
+          {
+            "operation": "y",
+            "crew": [
+              "a"
+            ],
+            "start": 2,
+            "finish": 4
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 4,
+          "travel_ticks": 0,
+          "elapsed_ticks": 4
+        }
+      }
+    }
+  },
+  {
+    "kind": "sequential",
+    "deadline": 5,
+    "site": 2,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "x",
+        "site": 2,
+        "release": 0,
+        "deadline": 5,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "y",
+        "site": 2,
+        "release": 0,
+        "deadline": 5,
+        "demands": [
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": [
+          "x"
+        ]
+      }
+    ],
+    "category": "specialist-only",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 3,
+        "minimum_makespan": 4,
+        "witness": [
+          {
+            "operation": "x",
+            "crew": [
+              "a"
+            ],
+            "start": 2,
+            "finish": 3
+          },
+          {
+            "operation": "y",
+            "crew": [
+              "b"
+            ],
+            "start": 3,
+            "finish": 4
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 4,
+          "elapsed_ticks": 4
+        }
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 3,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "sequential",
+    "deadline": 5,
+    "site": 2,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "x",
+        "site": 2,
+        "release": 0,
+        "deadline": 5,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "y",
+        "site": 2,
+        "release": 0,
+        "deadline": 5,
+        "demands": [
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": [
+          "x"
+        ]
+      }
+    ],
+    "category": "neither",
+    "results": {
+      "specialists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": null,
+        "witness": null
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 3,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "sequential",
+    "deadline": 6,
+    "site": 0,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "x",
+        "site": 0,
+        "release": 0,
+        "deadline": 6,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "y",
+        "site": 0,
+        "release": 0,
+        "deadline": 6,
+        "demands": [
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": [
+          "x"
+        ]
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 3,
+        "minimum_makespan": 2,
+        "witness": [
+          {
+            "operation": "x",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 1
+          },
+          {
+            "operation": "y",
+            "crew": [
+              "b"
+            ],
+            "start": 1,
+            "finish": 2
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 0,
+          "elapsed_ticks": 2
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 4,
+        "minimum_makespan": 4,
+        "witness": [
+          {
+            "operation": "x",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 2
+          },
+          {
+            "operation": "y",
+            "crew": [
+              "a"
+            ],
+            "start": 2,
+            "finish": 4
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 4,
+          "travel_ticks": 0,
+          "elapsed_ticks": 4
+        }
+      }
+    }
+  },
+  {
+    "kind": "sequential",
+    "deadline": 6,
+    "site": 0,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "x",
+        "site": 0,
+        "release": 0,
+        "deadline": 6,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "y",
+        "site": 0,
+        "release": 0,
+        "deadline": 6,
+        "demands": [
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": [
+          "x"
+        ]
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 3,
+        "minimum_makespan": 5,
+        "witness": [
+          {
+            "operation": "x",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 1
+          },
+          {
+            "operation": "y",
+            "crew": [
+              "b"
+            ],
+            "start": 4,
+            "finish": 5
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 0,
+          "elapsed_ticks": 5
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 4,
+        "minimum_makespan": 4,
+        "witness": [
+          {
+            "operation": "x",
+            "crew": [
+              "a"
+            ],
+            "start": 0,
+            "finish": 2
+          },
+          {
+            "operation": "y",
+            "crew": [
+              "a"
+            ],
+            "start": 2,
+            "finish": 4
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 4,
+          "travel_ticks": 0,
+          "elapsed_ticks": 4
+        }
+      }
+    }
+  },
+  {
+    "kind": "sequential",
+    "deadline": 6,
+    "site": 2,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "x",
+        "site": 2,
+        "release": 0,
+        "deadline": 6,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "y",
+        "site": 2,
+        "release": 0,
+        "deadline": 6,
+        "demands": [
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": [
+          "x"
+        ]
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 3,
+        "minimum_makespan": 4,
+        "witness": [
+          {
+            "operation": "x",
+            "crew": [
+              "a"
+            ],
+            "start": 2,
+            "finish": 3
+          },
+          {
+            "operation": "y",
+            "crew": [
+              "b"
+            ],
+            "start": 3,
+            "finish": 4
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 4,
+          "elapsed_ticks": 4
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 4,
+        "minimum_makespan": 6,
+        "witness": [
+          {
+            "operation": "x",
+            "crew": [
+              "a"
+            ],
+            "start": 2,
+            "finish": 4
+          },
+          {
+            "operation": "y",
+            "crew": [
+              "a"
+            ],
+            "start": 4,
+            "finish": 6
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 4,
+          "travel_ticks": 2,
+          "elapsed_ticks": 6
+        }
+      }
+    }
+  },
+  {
+    "kind": "sequential",
+    "deadline": 6,
+    "site": 2,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "x",
+        "site": 2,
+        "release": 0,
+        "deadline": 6,
+        "demands": [
+          [
+            "X",
+            2
+          ]
+        ],
+        "predecessors": []
+      },
+      {
+        "id": "y",
+        "site": 2,
+        "release": 0,
+        "deadline": 6,
+        "demands": [
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": [
+          "x"
+        ]
+      }
+    ],
+    "category": "generalist-only",
+    "results": {
+      "specialists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": null,
+        "witness": null
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 4,
+        "minimum_makespan": 6,
+        "witness": [
+          {
+            "operation": "x",
+            "crew": [
+              "a"
+            ],
+            "start": 2,
+            "finish": 4
+          },
+          {
+            "operation": "y",
+            "crew": [
+              "a"
+            ],
+            "start": 4,
+            "finish": 6
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 4,
+          "travel_ticks": 2,
+          "elapsed_ticks": 6
+        }
+      }
+    }
+  },
+  {
+    "kind": "simultaneous",
+    "deadline": 1,
+    "site": 0,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "task",
+        "site": 0,
+        "release": 0,
+        "deadline": 1,
+        "demands": [
+          [
+            "X",
+            2
+          ],
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "specialist-only",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 1,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 0,
+            "finish": 1
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 0,
+          "elapsed_ticks": 1
+        }
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "simultaneous",
+    "deadline": 1,
+    "site": 0,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "task",
+        "site": 0,
+        "release": 0,
+        "deadline": 1,
+        "demands": [
+          [
+            "X",
+            2
+          ],
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "specialist-only",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 1,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 0,
+            "finish": 1
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 0,
+          "elapsed_ticks": 1
+        }
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "simultaneous",
+    "deadline": 1,
+    "site": 2,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "task",
+        "site": 2,
+        "release": 0,
+        "deadline": 1,
+        "demands": [
+          [
+            "X",
+            2
+          ],
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "neither",
+    "results": {
+      "specialists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "simultaneous",
+    "deadline": 1,
+    "site": 2,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "task",
+        "site": 2,
+        "release": 0,
+        "deadline": 1,
+        "demands": [
+          [
+            "X",
+            2
+          ],
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "neither",
+    "results": {
+      "specialists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "simultaneous",
+    "deadline": 2,
+    "site": 0,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "task",
+        "site": 0,
+        "release": 0,
+        "deadline": 2,
+        "demands": [
+          [
+            "X",
+            2
+          ],
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 1,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 0,
+            "finish": 1
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 0,
+          "elapsed_ticks": 1
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 2,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 0,
+            "finish": 2
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 4,
+          "travel_ticks": 0,
+          "elapsed_ticks": 2
+        }
+      }
+    }
+  },
+  {
+    "kind": "simultaneous",
+    "deadline": 2,
+    "site": 0,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "task",
+        "site": 0,
+        "release": 0,
+        "deadline": 2,
+        "demands": [
+          [
+            "X",
+            2
+          ],
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 1,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 0,
+            "finish": 1
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 0,
+          "elapsed_ticks": 1
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 2,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 0,
+            "finish": 2
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 4,
+          "travel_ticks": 0,
+          "elapsed_ticks": 2
+        }
+      }
+    }
+  },
+  {
+    "kind": "simultaneous",
+    "deadline": 2,
+    "site": 2,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "task",
+        "site": 2,
+        "release": 0,
+        "deadline": 2,
+        "demands": [
+          [
+            "X",
+            2
+          ],
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "neither",
+    "results": {
+      "specialists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "simultaneous",
+    "deadline": 2,
+    "site": 2,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "task",
+        "site": 2,
+        "release": 0,
+        "deadline": 2,
+        "demands": [
+          [
+            "X",
+            2
+          ],
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "neither",
+    "results": {
+      "specialists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "simultaneous",
+    "deadline": 3,
+    "site": 0,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "task",
+        "site": 0,
+        "release": 0,
+        "deadline": 3,
+        "demands": [
+          [
+            "X",
+            2
+          ],
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 1,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 0,
+            "finish": 1
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 0,
+          "elapsed_ticks": 1
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 2,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 0,
+            "finish": 2
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 4,
+          "travel_ticks": 0,
+          "elapsed_ticks": 2
+        }
+      }
+    }
+  },
+  {
+    "kind": "simultaneous",
+    "deadline": 3,
+    "site": 0,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "task",
+        "site": 0,
+        "release": 0,
+        "deadline": 3,
+        "demands": [
+          [
+            "X",
+            2
+          ],
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 1,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 0,
+            "finish": 1
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 0,
+          "elapsed_ticks": 1
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 2,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 0,
+            "finish": 2
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 4,
+          "travel_ticks": 0,
+          "elapsed_ticks": 2
+        }
+      }
+    }
+  },
+  {
+    "kind": "simultaneous",
+    "deadline": 3,
+    "site": 2,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "task",
+        "site": 2,
+        "release": 0,
+        "deadline": 3,
+        "demands": [
+          [
+            "X",
+            2
+          ],
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "specialist-only",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 3,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 2,
+            "finish": 3
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 4,
+          "elapsed_ticks": 3
+        }
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "simultaneous",
+    "deadline": 3,
+    "site": 2,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "task",
+        "site": 2,
+        "release": 0,
+        "deadline": 3,
+        "demands": [
+          [
+            "X",
+            2
+          ],
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "specialist-only",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 3,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 2,
+            "finish": 3
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 4,
+          "elapsed_ticks": 3
+        }
+      },
+      "generalists": {
+        "status": "infeasible",
+        "search_complete": true,
+        "nodes": 1,
+        "minimum_makespan": null,
+        "witness": null
+      }
+    }
+  },
+  {
+    "kind": "simultaneous",
+    "deadline": 4,
+    "site": 0,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "task",
+        "site": 0,
+        "release": 0,
+        "deadline": 4,
+        "demands": [
+          [
+            "X",
+            2
+          ],
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 1,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 0,
+            "finish": 1
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 0,
+          "elapsed_ticks": 1
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 2,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 0,
+            "finish": 2
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 4,
+          "travel_ticks": 0,
+          "elapsed_ticks": 2
+        }
+      }
+    }
+  },
+  {
+    "kind": "simultaneous",
+    "deadline": 4,
+    "site": 0,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "task",
+        "site": 0,
+        "release": 0,
+        "deadline": 4,
+        "demands": [
+          [
+            "X",
+            2
+          ],
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 1,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 0,
+            "finish": 1
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 0,
+          "elapsed_ticks": 1
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 2,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 0,
+            "finish": 2
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 4,
+          "travel_ticks": 0,
+          "elapsed_ticks": 2
+        }
+      }
+    }
+  },
+  {
+    "kind": "simultaneous",
+    "deadline": 4,
+    "site": 2,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "task",
+        "site": 2,
+        "release": 0,
+        "deadline": 4,
+        "demands": [
+          [
+            "X",
+            2
+          ],
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 3,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 2,
+            "finish": 3
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 4,
+          "elapsed_ticks": 3
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 4,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 2,
+            "finish": 4
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 4,
+          "travel_ticks": 4,
+          "elapsed_ticks": 4
+        }
+      }
+    }
+  },
+  {
+    "kind": "simultaneous",
+    "deadline": 4,
+    "site": 2,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "task",
+        "site": 2,
+        "release": 0,
+        "deadline": 4,
+        "demands": [
+          [
+            "X",
+            2
+          ],
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 3,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 2,
+            "finish": 3
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 4,
+          "elapsed_ticks": 3
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 4,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 2,
+            "finish": 4
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 4,
+          "travel_ticks": 4,
+          "elapsed_ticks": 4
+        }
+      }
+    }
+  },
+  {
+    "kind": "simultaneous",
+    "deadline": 5,
+    "site": 0,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "task",
+        "site": 0,
+        "release": 0,
+        "deadline": 5,
+        "demands": [
+          [
+            "X",
+            2
+          ],
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 1,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 0,
+            "finish": 1
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 0,
+          "elapsed_ticks": 1
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 2,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 0,
+            "finish": 2
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 4,
+          "travel_ticks": 0,
+          "elapsed_ticks": 2
+        }
+      }
+    }
+  },
+  {
+    "kind": "simultaneous",
+    "deadline": 5,
+    "site": 0,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "task",
+        "site": 0,
+        "release": 0,
+        "deadline": 5,
+        "demands": [
+          [
+            "X",
+            2
+          ],
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 1,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 0,
+            "finish": 1
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 0,
+          "elapsed_ticks": 1
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 2,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 0,
+            "finish": 2
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 4,
+          "travel_ticks": 0,
+          "elapsed_ticks": 2
+        }
+      }
+    }
+  },
+  {
+    "kind": "simultaneous",
+    "deadline": 5,
+    "site": 2,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "task",
+        "site": 2,
+        "release": 0,
+        "deadline": 5,
+        "demands": [
+          [
+            "X",
+            2
+          ],
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 3,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 2,
+            "finish": 3
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 4,
+          "elapsed_ticks": 3
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 4,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 2,
+            "finish": 4
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 4,
+          "travel_ticks": 4,
+          "elapsed_ticks": 4
+        }
+      }
+    }
+  },
+  {
+    "kind": "simultaneous",
+    "deadline": 5,
+    "site": 2,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "task",
+        "site": 2,
+        "release": 0,
+        "deadline": 5,
+        "demands": [
+          [
+            "X",
+            2
+          ],
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 3,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 2,
+            "finish": 3
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 4,
+          "elapsed_ticks": 3
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 4,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 2,
+            "finish": 4
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 4,
+          "travel_ticks": 4,
+          "elapsed_ticks": 4
+        }
+      }
+    }
+  },
+  {
+    "kind": "simultaneous",
+    "deadline": 6,
+    "site": 0,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "task",
+        "site": 0,
+        "release": 0,
+        "deadline": 6,
+        "demands": [
+          [
+            "X",
+            2
+          ],
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 1,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 0,
+            "finish": 1
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 0,
+          "elapsed_ticks": 1
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 2,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 0,
+            "finish": 2
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 4,
+          "travel_ticks": 0,
+          "elapsed_ticks": 2
+        }
+      }
+    }
+  },
+  {
+    "kind": "simultaneous",
+    "deadline": 6,
+    "site": 0,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "task",
+        "site": 0,
+        "release": 0,
+        "deadline": 6,
+        "demands": [
+          [
+            "X",
+            2
+          ],
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 1,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 0,
+            "finish": 1
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 0,
+          "elapsed_ticks": 1
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 2,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 0,
+            "finish": 2
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 4,
+          "travel_ticks": 0,
+          "elapsed_ticks": 2
+        }
+      }
+    }
+  },
+  {
+    "kind": "simultaneous",
+    "deadline": 6,
+    "site": 2,
+    "handoff_latency": 0,
+    "operations": [
+      {
+        "id": "task",
+        "site": 2,
+        "release": 0,
+        "deadline": 6,
+        "demands": [
+          [
+            "X",
+            2
+          ],
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 3,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 2,
+            "finish": 3
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 4,
+          "elapsed_ticks": 3
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 4,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 2,
+            "finish": 4
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 4,
+          "travel_ticks": 4,
+          "elapsed_ticks": 4
+        }
+      }
+    }
+  },
+  {
+    "kind": "simultaneous",
+    "deadline": 6,
+    "site": 2,
+    "handoff_latency": 3,
+    "operations": [
+      {
+        "id": "task",
+        "site": 2,
+        "release": 0,
+        "deadline": 6,
+        "demands": [
+          [
+            "X",
+            2
+          ],
+          [
+            "Y",
+            2
+          ]
+        ],
+        "predecessors": []
+      }
+    ],
+    "category": "shared",
+    "results": {
+      "specialists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 3,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 2,
+            "finish": 3
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 2,
+          "travel_ticks": 4,
+          "elapsed_ticks": 3
+        }
+      },
+      "generalists": {
+        "status": "feasible",
+        "search_complete": true,
+        "nodes": 2,
+        "minimum_makespan": 4,
+        "witness": [
+          {
+            "operation": "task",
+            "crew": [
+              "a",
+              "b"
+            ],
+            "start": 2,
+            "finish": 4
+          }
+        ],
+        "accounting": {
+          "work_occupancy_ticks": 4,
+          "travel_ticks": 4,
+          "elapsed_ticks": 4
+        }
+      }
+    }
+  }
+]

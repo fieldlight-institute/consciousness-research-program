@@ -1,0 +1,94 @@
+{
+  "instances": 72,
+  "categories": {
+    "specialist-only": 12,
+    "neither": 20,
+    "shared": 38,
+    "generalist-only": 2
+  },
+  "by_type": {
+    "single": {
+      "specialist-only": 4,
+      "neither": 4,
+      "shared": 16
+    },
+    "sequential": {
+      "neither": 12,
+      "specialist-only": 4,
+      "shared": 6,
+      "generalist-only": 2
+    },
+    "simultaneous": {
+      "specialist-only": 4,
+      "neither": 4,
+      "shared": 16
+    }
+  },
+  "teams": {
+    "specialists": [
+      {
+        "id": "a",
+        "site": 0,
+        "rates": {
+          "X": 2
+        },
+        "refused": []
+      },
+      {
+        "id": "b",
+        "site": 0,
+        "rates": {
+          "Y": 2
+        },
+        "refused": []
+      }
+    ],
+    "generalists": [
+      {
+        "id": "a",
+        "site": 0,
+        "rates": {
+          "X": 1,
+          "Y": 1
+        },
+        "refused": []
+      },
+      {
+        "id": "b",
+        "site": 0,
+        "rates": {
+          "X": 1,
+          "Y": 1
+        },
+        "refused": []
+      }
+    ]
+  },
+  "capacity": {
+    "specialists": {
+      "potential": {
+        "X": 2,
+        "Y": 2
+      },
+      "usable": {
+        "X": 2,
+        "Y": 2
+      },
+      "sum_individual_max_rates": 4,
+      "agents": 2
+    },
+    "generalists": {
+      "potential": {
+        "X": 2,
+        "Y": 2
+      },
+      "usable": {
+        "X": 2,
+        "Y": 2
+      },
+      "sum_individual_max_rates": 2,
+      "agents": 2
+    }
+  },
+  "largest_search_nodes": 4
+}

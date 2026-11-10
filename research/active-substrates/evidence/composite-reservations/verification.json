@@ -1,0 +1,11 @@
+{
+  "tests_passed": 4,
+  "prior_artifacts_unchanged": 519,
+  "sources": {
+    "SPECIFICATION.md": "649bc9fb52fbd34046b732601aee111b9a2925cc5b2d4b5845a374c4fe0b5af8",
+    "study.py": "21a8c1a73a80f2b5fc1b5b0753b81fea62fac49403cc303a6bc93a298194f88c",
+    "test_policy.py": "cb403f84747bf28178fb1e0dacc1dc2946edaeb9bf8bd00913dd642565a0e692",
+    "run.py": "b2ebee59ad6fd3451cae58c1c03251cbe8ccfa96e8c967c737cfd3917d69220f"
+  },
+  "report_sha256": "2681d318888dbc3740315c14e1bb44f6e54964e5bc73ebd4e205e5d70a918555"
+}

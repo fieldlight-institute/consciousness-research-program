@@ -1,0 +1,1500 @@
+[
+  {
+    "seed": 15000,
+    "policy": "stage",
+    "completed": 2,
+    "completion_fraction": 0.6666666666666666,
+    "partial": 0,
+    "assignment_checks": 26,
+    "rejected_proposals": 9,
+    "work_occupancy_ticks": 5,
+    "travel_ticks": 3,
+    "elapsed_ticks": 7,
+    "events": [
+      {
+        "operation": "2-0",
+        "crew": [
+          "a"
+        ],
+        "start": 2,
+        "finish": 3
+      },
+      {
+        "operation": "2-1",
+        "crew": [
+          "a"
+        ],
+        "start": 3,
+        "finish": 4
+      },
+      {
+        "operation": "1-0",
+        "crew": [
+          "b"
+        ],
+        "start": 4,
+        "finish": 6
+      },
+      {
+        "operation": "1-1",
+        "crew": [
+          "b"
+        ],
+        "start": 6,
+        "finish": 7
+      }
+    ],
+    "decisions": [
+      {
+        "t": 1,
+        "operations": [
+          "2-0"
+        ]
+      },
+      {
+        "t": 1,
+        "operations": [
+          "2-1"
+        ]
+      },
+      {
+        "t": 2,
+        "operations": [
+          "1-0"
+        ]
+      },
+      {
+        "t": 2,
+        "operations": [
+          "1-1"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 15000,
+    "policy": "whole",
+    "completed": 2,
+    "completion_fraction": 0.6666666666666666,
+    "partial": 0,
+    "assignment_checks": 26,
+    "rejected_proposals": 9,
+    "work_occupancy_ticks": 5,
+    "travel_ticks": 3,
+    "elapsed_ticks": 7,
+    "events": [
+      {
+        "operation": "2-0",
+        "crew": [
+          "a"
+        ],
+        "start": 2,
+        "finish": 3
+      },
+      {
+        "operation": "2-1",
+        "crew": [
+          "a"
+        ],
+        "start": 3,
+        "finish": 4
+      },
+      {
+        "operation": "1-0",
+        "crew": [
+          "b"
+        ],
+        "start": 4,
+        "finish": 6
+      },
+      {
+        "operation": "1-1",
+        "crew": [
+          "b"
+        ],
+        "start": 6,
+        "finish": 7
+      }
+    ],
+    "decisions": [
+      {
+        "t": 1,
+        "operations": [
+          "2-0",
+          "2-1"
+        ]
+      },
+      {
+        "t": 2,
+        "operations": [
+          "1-0",
+          "1-1"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 15001,
+    "policy": "stage",
+    "completed": 2,
+    "completion_fraction": 0.6666666666666666,
+    "partial": 0,
+    "assignment_checks": 26,
+    "rejected_proposals": 9,
+    "work_occupancy_ticks": 5,
+    "travel_ticks": 0,
+    "elapsed_ticks": 5,
+    "events": [
+      {
+        "operation": "0-0",
+        "crew": [
+          "b"
+        ],
+        "start": 2,
+        "finish": 3
+      },
+      {
+        "operation": "2-0",
+        "crew": [
+          "a"
+        ],
+        "start": 2,
+        "finish": 4
+      },
+      {
+        "operation": "0-1",
+        "crew": [
+          "b"
+        ],
+        "start": 3,
+        "finish": 4
+      },
+      {
+        "operation": "2-1",
+        "crew": [
+          "a"
+        ],
+        "start": 4,
+        "finish": 5
+      }
+    ],
+    "decisions": [
+      {
+        "t": 2,
+        "operations": [
+          "0-0"
+        ]
+      },
+      {
+        "t": 2,
+        "operations": [
+          "2-0"
+        ]
+      },
+      {
+        "t": 2,
+        "operations": [
+          "0-1"
+        ]
+      },
+      {
+        "t": 2,
+        "operations": [
+          "2-1"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 15001,
+    "policy": "whole",
+    "completed": 2,
+    "completion_fraction": 0.6666666666666666,
+    "partial": 0,
+    "assignment_checks": 26,
+    "rejected_proposals": 9,
+    "work_occupancy_ticks": 5,
+    "travel_ticks": 0,
+    "elapsed_ticks": 5,
+    "events": [
+      {
+        "operation": "0-0",
+        "crew": [
+          "b"
+        ],
+        "start": 2,
+        "finish": 3
+      },
+      {
+        "operation": "0-1",
+        "crew": [
+          "b"
+        ],
+        "start": 3,
+        "finish": 4
+      },
+      {
+        "operation": "2-0",
+        "crew": [
+          "a"
+        ],
+        "start": 2,
+        "finish": 4
+      },
+      {
+        "operation": "2-1",
+        "crew": [
+          "a"
+        ],
+        "start": 4,
+        "finish": 5
+      }
+    ],
+    "decisions": [
+      {
+        "t": 2,
+        "operations": [
+          "0-0",
+          "0-1"
+        ]
+      },
+      {
+        "t": 2,
+        "operations": [
+          "2-0",
+          "2-1"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 15002,
+    "policy": "stage",
+    "completed": 2,
+    "completion_fraction": 0.6666666666666666,
+    "partial": 1,
+    "assignment_checks": 32,
+    "rejected_proposals": 11,
+    "work_occupancy_ticks": 8,
+    "travel_ticks": 1,
+    "elapsed_ticks": 8,
+    "events": [
+      {
+        "operation": "1-0",
+        "crew": [
+          "b"
+        ],
+        "start": 1,
+        "finish": 2
+      },
+      {
+        "operation": "1-1",
+        "crew": [
+          "b"
+        ],
+        "start": 2,
+        "finish": 3
+      },
+      {
+        "operation": "2-0",
+        "crew": [
+          "a"
+        ],
+        "start": 3,
+        "finish": 5
+      },
+      {
+        "operation": "0-0",
+        "crew": [
+          "b"
+        ],
+        "start": 4,
+        "finish": 6
+      },
+      {
+        "operation": "0-1",
+        "crew": [
+          "b"
+        ],
+        "start": 6,
+        "finish": 8
+      }
+    ],
+    "decisions": [
+      {
+        "t": 1,
+        "operations": [
+          "1-0"
+        ]
+      },
+      {
+        "t": 1,
+        "operations": [
+          "1-1"
+        ]
+      },
+      {
+        "t": 3,
+        "operations": [
+          "2-0"
+        ]
+      },
+      {
+        "t": 3,
+        "operations": [
+          "0-0"
+        ]
+      },
+      {
+        "t": 3,
+        "operations": [
+          "0-1"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 15002,
+    "policy": "whole",
+    "completed": 2,
+    "completion_fraction": 0.6666666666666666,
+    "partial": 0,
+    "assignment_checks": 30,
+    "rejected_proposals": 10,
+    "work_occupancy_ticks": 6,
+    "travel_ticks": 1,
+    "elapsed_ticks": 8,
+    "events": [
+      {
+        "operation": "1-0",
+        "crew": [
+          "b"
+        ],
+        "start": 1,
+        "finish": 2
+      },
+      {
+        "operation": "1-1",
+        "crew": [
+          "b"
+        ],
+        "start": 2,
+        "finish": 3
+      },
+      {
+        "operation": "0-0",
+        "crew": [
+          "a"
+        ],
+        "start": 4,
+        "finish": 6
+      },
+      {
+        "operation": "0-1",
+        "crew": [
+          "a"
+        ],
+        "start": 6,
+        "finish": 8
+      }
+    ],
+    "decisions": [
+      {
+        "t": 1,
+        "operations": [
+          "1-0",
+          "1-1"
+        ]
+      },
+      {
+        "t": 3,
+        "operations": [
+          "0-0",
+          "0-1"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 15003,
+    "policy": "stage",
+    "completed": 2,
+    "completion_fraction": 0.6666666666666666,
+    "partial": 0,
+    "assignment_checks": 26,
+    "rejected_proposals": 9,
+    "work_occupancy_ticks": 5,
+    "travel_ticks": 2,
+    "elapsed_ticks": 5,
+    "events": [
+      {
+        "operation": "1-0",
+        "crew": [
+          "a"
+        ],
+        "start": 2,
+        "finish": 3
+      },
+      {
+        "operation": "1-1",
+        "crew": [
+          "a"
+        ],
+        "start": 3,
+        "finish": 4
+      },
+      {
+        "operation": "0-0",
+        "crew": [
+          "b"
+        ],
+        "start": 2,
+        "finish": 4
+      },
+      {
+        "operation": "0-1",
+        "crew": [
+          "b"
+        ],
+        "start": 4,
+        "finish": 5
+      }
+    ],
+    "decisions": [
+      {
+        "t": 1,
+        "operations": [
+          "1-0"
+        ]
+      },
+      {
+        "t": 1,
+        "operations": [
+          "1-1"
+        ]
+      },
+      {
+        "t": 1,
+        "operations": [
+          "0-0"
+        ]
+      },
+      {
+        "t": 1,
+        "operations": [
+          "0-1"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 15003,
+    "policy": "whole",
+    "completed": 2,
+    "completion_fraction": 0.6666666666666666,
+    "partial": 0,
+    "assignment_checks": 26,
+    "rejected_proposals": 9,
+    "work_occupancy_ticks": 5,
+    "travel_ticks": 2,
+    "elapsed_ticks": 5,
+    "events": [
+      {
+        "operation": "1-0",
+        "crew": [
+          "a"
+        ],
+        "start": 2,
+        "finish": 3
+      },
+      {
+        "operation": "1-1",
+        "crew": [
+          "a"
+        ],
+        "start": 3,
+        "finish": 4
+      },
+      {
+        "operation": "0-0",
+        "crew": [
+          "b"
+        ],
+        "start": 2,
+        "finish": 4
+      },
+      {
+        "operation": "0-1",
+        "crew": [
+          "b"
+        ],
+        "start": 4,
+        "finish": 5
+      }
+    ],
+    "decisions": [
+      {
+        "t": 1,
+        "operations": [
+          "1-0",
+          "1-1"
+        ]
+      },
+      {
+        "t": 1,
+        "operations": [
+          "0-0",
+          "0-1"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 15004,
+    "policy": "stage",
+    "completed": 2,
+    "completion_fraction": 0.6666666666666666,
+    "partial": 1,
+    "assignment_checks": 32,
+    "rejected_proposals": 11,
+    "work_occupancy_ticks": 8,
+    "travel_ticks": 0,
+    "elapsed_ticks": 8,
+    "events": [
+      {
+        "operation": "0-0",
+        "crew": [
+          "b"
+        ],
+        "start": 0,
+        "finish": 2
+      },
+      {
+        "operation": "0-1",
+        "crew": [
+          "b"
+        ],
+        "start": 2,
+        "finish": 3
+      },
+      {
+        "operation": "2-0",
+        "crew": [
+          "a"
+        ],
+        "start": 3,
+        "finish": 5
+      },
+      {
+        "operation": "1-0",
+        "crew": [
+          "a"
+        ],
+        "start": 5,
+        "finish": 7
+      },
+      {
+        "operation": "1-1",
+        "crew": [
+          "a"
+        ],
+        "start": 7,
+        "finish": 8
+      }
+    ],
+    "decisions": [
+      {
+        "t": 0,
+        "operations": [
+          "0-0"
+        ]
+      },
+      {
+        "t": 0,
+        "operations": [
+          "0-1"
+        ]
+      },
+      {
+        "t": 3,
+        "operations": [
+          "2-0"
+        ]
+      },
+      {
+        "t": 3,
+        "operations": [
+          "1-0"
+        ]
+      },
+      {
+        "t": 3,
+        "operations": [
+          "1-1"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 15004,
+    "policy": "whole",
+    "completed": 2,
+    "completion_fraction": 0.6666666666666666,
+    "partial": 0,
+    "assignment_checks": 30,
+    "rejected_proposals": 10,
+    "work_occupancy_ticks": 6,
+    "travel_ticks": 0,
+    "elapsed_ticks": 6,
+    "events": [
+      {
+        "operation": "0-0",
+        "crew": [
+          "b"
+        ],
+        "start": 0,
+        "finish": 2
+      },
+      {
+        "operation": "0-1",
+        "crew": [
+          "b"
+        ],
+        "start": 2,
+        "finish": 3
+      },
+      {
+        "operation": "1-0",
+        "crew": [
+          "a"
+        ],
+        "start": 3,
+        "finish": 5
+      },
+      {
+        "operation": "1-1",
+        "crew": [
+          "a"
+        ],
+        "start": 5,
+        "finish": 6
+      }
+    ],
+    "decisions": [
+      {
+        "t": 0,
+        "operations": [
+          "0-0",
+          "0-1"
+        ]
+      },
+      {
+        "t": 3,
+        "operations": [
+          "1-0",
+          "1-1"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 15005,
+    "policy": "stage",
+    "completed": 2,
+    "completion_fraction": 0.6666666666666666,
+    "partial": 1,
+    "assignment_checks": 32,
+    "rejected_proposals": 11,
+    "work_occupancy_ticks": 7,
+    "travel_ticks": 4,
+    "elapsed_ticks": 8,
+    "events": [
+      {
+        "operation": "1-0",
+        "crew": [
+          "a"
+        ],
+        "start": 1,
+        "finish": 3
+      },
+      {
+        "operation": "1-1",
+        "crew": [
+          "a"
+        ],
+        "start": 3,
+        "finish": 4
+      },
+      {
+        "operation": "0-0",
+        "crew": [
+          "a"
+        ],
+        "start": 5,
+        "finish": 6
+      },
+      {
+        "operation": "2-0",
+        "crew": [
+          "b"
+        ],
+        "start": 5,
+        "finish": 7
+      },
+      {
+        "operation": "2-1",
+        "crew": [
+          "b"
+        ],
+        "start": 7,
+        "finish": 8
+      }
+    ],
+    "decisions": [
+      {
+        "t": 0,
+        "operations": [
+          "1-0"
+        ]
+      },
+      {
+        "t": 0,
+        "operations": [
+          "1-1"
+        ]
+      },
+      {
+        "t": 3,
+        "operations": [
+          "0-0"
+        ]
+      },
+      {
+        "t": 3,
+        "operations": [
+          "2-0"
+        ]
+      },
+      {
+        "t": 3,
+        "operations": [
+          "2-1"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 15005,
+    "policy": "whole",
+    "completed": 2,
+    "completion_fraction": 0.6666666666666666,
+    "partial": 0,
+    "assignment_checks": 32,
+    "rejected_proposals": 10,
+    "work_occupancy_ticks": 6,
+    "travel_ticks": 2,
+    "elapsed_ticks": 8,
+    "events": [
+      {
+        "operation": "1-0",
+        "crew": [
+          "a"
+        ],
+        "start": 1,
+        "finish": 3
+      },
+      {
+        "operation": "1-1",
+        "crew": [
+          "a"
+        ],
+        "start": 3,
+        "finish": 4
+      },
+      {
+        "operation": "2-0",
+        "crew": [
+          "a"
+        ],
+        "start": 5,
+        "finish": 7
+      },
+      {
+        "operation": "2-1",
+        "crew": [
+          "a"
+        ],
+        "start": 7,
+        "finish": 8
+      }
+    ],
+    "decisions": [
+      {
+        "t": 0,
+        "operations": [
+          "1-0",
+          "1-1"
+        ]
+      },
+      {
+        "t": 3,
+        "operations": [
+          "2-0",
+          "2-1"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 15006,
+    "policy": "stage",
+    "completed": 3,
+    "completion_fraction": 1.0,
+    "partial": 0,
+    "assignment_checks": 12,
+    "rejected_proposals": 0,
+    "work_occupancy_ticks": 8,
+    "travel_ticks": 2,
+    "elapsed_ticks": 8,
+    "events": [
+      {
+        "operation": "1-0",
+        "crew": [
+          "b"
+        ],
+        "start": 1,
+        "finish": 2
+      },
+      {
+        "operation": "1-1",
+        "crew": [
+          "b"
+        ],
+        "start": 2,
+        "finish": 4
+      },
+      {
+        "operation": "2-0",
+        "crew": [
+          "a"
+        ],
+        "start": 2,
+        "finish": 3
+      },
+      {
+        "operation": "2-1",
+        "crew": [
+          "a"
+        ],
+        "start": 3,
+        "finish": 4
+      },
+      {
+        "operation": "0-0",
+        "crew": [
+          "a"
+        ],
+        "start": 5,
+        "finish": 6
+      },
+      {
+        "operation": "0-1",
+        "crew": [
+          "a"
+        ],
+        "start": 6,
+        "finish": 8
+      }
+    ],
+    "decisions": [
+      {
+        "t": 1,
+        "operations": [
+          "1-0"
+        ]
+      },
+      {
+        "t": 1,
+        "operations": [
+          "1-1"
+        ]
+      },
+      {
+        "t": 1,
+        "operations": [
+          "2-0"
+        ]
+      },
+      {
+        "t": 1,
+        "operations": [
+          "2-1"
+        ]
+      },
+      {
+        "t": 2,
+        "operations": [
+          "0-0"
+        ]
+      },
+      {
+        "t": 2,
+        "operations": [
+          "0-1"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 15006,
+    "policy": "whole",
+    "completed": 3,
+    "completion_fraction": 1.0,
+    "partial": 0,
+    "assignment_checks": 12,
+    "rejected_proposals": 0,
+    "work_occupancy_ticks": 8,
+    "travel_ticks": 2,
+    "elapsed_ticks": 8,
+    "events": [
+      {
+        "operation": "1-0",
+        "crew": [
+          "b"
+        ],
+        "start": 1,
+        "finish": 2
+      },
+      {
+        "operation": "1-1",
+        "crew": [
+          "b"
+        ],
+        "start": 2,
+        "finish": 4
+      },
+      {
+        "operation": "2-0",
+        "crew": [
+          "a"
+        ],
+        "start": 2,
+        "finish": 3
+      },
+      {
+        "operation": "2-1",
+        "crew": [
+          "a"
+        ],
+        "start": 3,
+        "finish": 4
+      },
+      {
+        "operation": "0-0",
+        "crew": [
+          "a"
+        ],
+        "start": 5,
+        "finish": 6
+      },
+      {
+        "operation": "0-1",
+        "crew": [
+          "a"
+        ],
+        "start": 6,
+        "finish": 8
+      }
+    ],
+    "decisions": [
+      {
+        "t": 1,
+        "operations": [
+          "1-0",
+          "1-1"
+        ]
+      },
+      {
+        "t": 1,
+        "operations": [
+          "2-0",
+          "2-1"
+        ]
+      },
+      {
+        "t": 2,
+        "operations": [
+          "0-0",
+          "0-1"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 15007,
+    "policy": "stage",
+    "completed": 2,
+    "completion_fraction": 0.6666666666666666,
+    "partial": 1,
+    "assignment_checks": 34,
+    "rejected_proposals": 12,
+    "work_occupancy_ticks": 7,
+    "travel_ticks": 2,
+    "elapsed_ticks": 8,
+    "events": [
+      {
+        "operation": "0-0",
+        "crew": [
+          "b"
+        ],
+        "start": 1,
+        "finish": 3
+      },
+      {
+        "operation": "0-1",
+        "crew": [
+          "b"
+        ],
+        "start": 3,
+        "finish": 4
+      },
+      {
+        "operation": "2-0",
+        "crew": [
+          "a"
+        ],
+        "start": 3,
+        "finish": 4
+      },
+      {
+        "operation": "1-0",
+        "crew": [
+          "a"
+        ],
+        "start": 5,
+        "finish": 7
+      },
+      {
+        "operation": "1-1",
+        "crew": [
+          "a"
+        ],
+        "start": 7,
+        "finish": 8
+      }
+    ],
+    "decisions": [
+      {
+        "t": 1,
+        "operations": [
+          "0-0"
+        ]
+      },
+      {
+        "t": 1,
+        "operations": [
+          "0-1"
+        ]
+      },
+      {
+        "t": 2,
+        "operations": [
+          "2-0"
+        ]
+      },
+      {
+        "t": 2,
+        "operations": [
+          "1-0"
+        ]
+      },
+      {
+        "t": 2,
+        "operations": [
+          "1-1"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 15007,
+    "policy": "whole",
+    "completed": 2,
+    "completion_fraction": 0.6666666666666666,
+    "partial": 0,
+    "assignment_checks": 32,
+    "rejected_proposals": 11,
+    "work_occupancy_ticks": 6,
+    "travel_ticks": 0,
+    "elapsed_ticks": 5,
+    "events": [
+      {
+        "operation": "0-0",
+        "crew": [
+          "b"
+        ],
+        "start": 1,
+        "finish": 3
+      },
+      {
+        "operation": "0-1",
+        "crew": [
+          "b"
+        ],
+        "start": 3,
+        "finish": 4
+      },
+      {
+        "operation": "1-0",
+        "crew": [
+          "a"
+        ],
+        "start": 2,
+        "finish": 4
+      },
+      {
+        "operation": "1-1",
+        "crew": [
+          "a"
+        ],
+        "start": 4,
+        "finish": 5
+      }
+    ],
+    "decisions": [
+      {
+        "t": 1,
+        "operations": [
+          "0-0",
+          "0-1"
+        ]
+      },
+      {
+        "t": 2,
+        "operations": [
+          "1-0",
+          "1-1"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 15008,
+    "policy": "stage",
+    "completed": 2,
+    "completion_fraction": 0.6666666666666666,
+    "partial": 0,
+    "assignment_checks": 26,
+    "rejected_proposals": 9,
+    "work_occupancy_ticks": 6,
+    "travel_ticks": 2,
+    "elapsed_ticks": 5,
+    "events": [
+      {
+        "operation": "2-0",
+        "crew": [
+          "a"
+        ],
+        "start": 1,
+        "finish": 3
+      },
+      {
+        "operation": "2-1",
+        "crew": [
+          "a"
+        ],
+        "start": 3,
+        "finish": 5
+      },
+      {
+        "operation": "1-0",
+        "crew": [
+          "b"
+        ],
+        "start": 3,
+        "finish": 4
+      },
+      {
+        "operation": "1-1",
+        "crew": [
+          "b"
+        ],
+        "start": 4,
+        "finish": 5
+      }
+    ],
+    "decisions": [
+      {
+        "t": 0,
+        "operations": [
+          "2-0"
+        ]
+      },
+      {
+        "t": 0,
+        "operations": [
+          "2-1"
+        ]
+      },
+      {
+        "t": 2,
+        "operations": [
+          "1-0"
+        ]
+      },
+      {
+        "t": 2,
+        "operations": [
+          "1-1"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 15008,
+    "policy": "whole",
+    "completed": 2,
+    "completion_fraction": 0.6666666666666666,
+    "partial": 0,
+    "assignment_checks": 26,
+    "rejected_proposals": 9,
+    "work_occupancy_ticks": 6,
+    "travel_ticks": 2,
+    "elapsed_ticks": 5,
+    "events": [
+      {
+        "operation": "2-0",
+        "crew": [
+          "a"
+        ],
+        "start": 1,
+        "finish": 3
+      },
+      {
+        "operation": "2-1",
+        "crew": [
+          "a"
+        ],
+        "start": 3,
+        "finish": 5
+      },
+      {
+        "operation": "1-0",
+        "crew": [
+          "b"
+        ],
+        "start": 3,
+        "finish": 4
+      },
+      {
+        "operation": "1-1",
+        "crew": [
+          "b"
+        ],
+        "start": 4,
+        "finish": 5
+      }
+    ],
+    "decisions": [
+      {
+        "t": 0,
+        "operations": [
+          "2-0",
+          "2-1"
+        ]
+      },
+      {
+        "t": 2,
+        "operations": [
+          "1-0",
+          "1-1"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 15009,
+    "policy": "stage",
+    "completed": 3,
+    "completion_fraction": 1.0,
+    "partial": 0,
+    "assignment_checks": 12,
+    "rejected_proposals": 0,
+    "work_occupancy_ticks": 9,
+    "travel_ticks": 1,
+    "elapsed_ticks": 7,
+    "events": [
+      {
+        "operation": "0-0",
+        "crew": [
+          "b"
+        ],
+        "start": 0,
+        "finish": 2
+      },
+      {
+        "operation": "0-1",
+        "crew": [
+          "b"
+        ],
+        "start": 2,
+        "finish": 3
+      },
+      {
+        "operation": "2-0",
+        "crew": [
+          "b"
+        ],
+        "start": 3,
+        "finish": 5
+      },
+      {
+        "operation": "2-1",
+        "crew": [
+          "b"
+        ],
+        "start": 5,
+        "finish": 6
+      },
+      {
+        "operation": "1-0",
+        "crew": [
+          "a"
+        ],
+        "start": 4,
+        "finish": 5
+      },
+      {
+        "operation": "1-1",
+        "crew": [
+          "a"
+        ],
+        "start": 5,
+        "finish": 7
+      }
+    ],
+    "decisions": [
+      {
+        "t": 0,
+        "operations": [
+          "0-0"
+        ]
+      },
+      {
+        "t": 0,
+        "operations": [
+          "0-1"
+        ]
+      },
+      {
+        "t": 3,
+        "operations": [
+          "2-0"
+        ]
+      },
+      {
+        "t": 3,
+        "operations": [
+          "2-1"
+        ]
+      },
+      {
+        "t": 3,
+        "operations": [
+          "1-0"
+        ]
+      },
+      {
+        "t": 3,
+        "operations": [
+          "1-1"
+        ]
+      }
+    ]
+  },
+  {
+    "seed": 15009,
+    "policy": "whole",
+    "completed": 3,
+    "completion_fraction": 1.0,
+    "partial": 0,
+    "assignment_checks": 12,
+    "rejected_proposals": 0,
+    "work_occupancy_ticks": 9,
+    "travel_ticks": 1,
+    "elapsed_ticks": 7,
+    "events": [
+      {
+        "operation": "0-0",
+        "crew": [
+          "b"
+        ],
+        "start": 0,
+        "finish": 2
+      },
+      {
+        "operation": "0-1",
+        "crew": [
+          "b"
+        ],
+        "start": 2,
+        "finish": 3
+      },
+      {
+        "operation": "2-0",
+        "crew": [
+          "b"
+        ],
+        "start": 3,
+        "finish": 5
+      },
+      {
+        "operation": "2-1",
+        "crew": [
+          "b"
+        ],
+        "start": 5,
+        "finish": 6
+      },
+      {
+        "operation": "1-0",
+        "crew": [
+          "a"
+        ],
+        "start": 4,
+        "finish": 5
+      },
+      {
+        "operation": "1-1",
+        "crew": [
+          "a"
+        ],
+        "start": 5,
+        "finish": 7
+      }
+    ],
+    "decisions": [
+      {
+        "t": 0,
+        "operations": [
+          "0-0",
+          "0-1"
+        ]
+      },
+      {
+        "t": 3,
+        "operations": [
+          "2-0",
+          "2-1"
+        ]
+      },
+      {
+        "t": 3,
+        "operations": [
+          "1-0",
+          "1-1"
+        ]
+      }
+    ]
+  }
+]

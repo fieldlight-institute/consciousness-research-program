@@ -1,0 +1,17 @@
+{
+  "prior_artifacts_unchanged": 499,
+  "sources": {
+    "SPECIFICATION.md": "45d868873722fd58e714ef660fd0cfed9f5576ebb562155d3298588d908435a4",
+    "oracle.py": "f36f02fe5f2c5b6981c32eb77bcaf93d0099b91d0cc834ba0e8057ce46228e55",
+    "test_oracle.py": "9ee747a5eda09f7e767d5a2fcae3029aeede6890f669db6ee78ee89897a388fc",
+    "demo.py": "a44d9b932ecc325f94a3e115a5e0613b9e139118b707dd55c1e1632960c0e3a6"
+  },
+  "all_grid_searches_complete": true,
+  "witnesses_validated": 90,
+  "outputs": {
+    "summary.json": "06cd93881da36633a68e605bfd5d51e15ac14a3588dfc320f7f3b67279461157",
+    "joint-conflict.json": "2a22c9f0e6cb5ca9f4f2f4a15d7d1011db74c206d159b05617b6c7d01180025b",
+    "cases.json": "0eec640638760d36201cdda61f2a2a5554a1a43bb6b7d5601066c09f61feca5a",
+    "freeze.json": "cf1fefd8e0a86fc2b7344f955bf97f226fdb53b308fe4930f3ba098cb855a0e3"
+  }
+}

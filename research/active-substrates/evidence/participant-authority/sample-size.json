@@ -1,0 +1,17 @@
+{
+  "pilot_sd": 0.008109349087807728,
+  "planning_difference": 0.005,
+  "nominal_power": 0.8,
+  "uncapped_n": 21,
+  "n": 40,
+  "capped": false,
+  "pilot_hash": "464eb3343d6f1a3fc5826ec37b6a6664be22fb8dcba23a36c426bbda863563ef",
+  "source_hashes": {
+    "SPECIFICATION.md": "ebb82a12893cdeb6f3d29cd8e306bacfe07e63647332bb51a764388b0c5f430a",
+    "run.py": "38b5a260f17c45b2fb18e214c7d79417305c856c6bc09f19bf52c3b3ecff6a60",
+    "medium.py": "e9b11900a9328526e2988ef35cae16a1229e50a310d934357a75cb65e9d1c80c",
+    "participant.py": "d0e0f717958cc533a1c623130f3f2a6dede5d9e3ba23625764c6b18db6d65d99",
+    "test_participant.py": "01868b335fa9e5a438296518d1cde9394a8b144beb2e35e314c0ea4d0084b82e",
+    "study.py": "b912d4e50a5cce6a99f8f37f195ace28554ea61c027485146df6c9de3ccbf7aa"
+  }
+}

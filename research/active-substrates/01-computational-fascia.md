@@ -1,7 +1,7 @@
 # AS-01 — Does a dynamic shared medium contribute to coordination?
 
 Version: 0.1 · September 29, 2026  
-State: specification for review; not preregistered, implemented or run
+State: historical specification; bounded implementations and results now exist. See [current implementation status](05-implementation-status.md).
 
 ## Question
 
@@ -78,3 +78,7 @@ Resolve and record: job generator and feasibility rule; local score equation; de
 ## Implementation record required
 
 Commit hash; frozen specification version; condition; seed; task stream hash; parameter manifest; environment/runtime versions; event log; agent decisions; medium state snapshots; operations budget; refusal events; analysis output; deviations. Use synthetic data only. Link code and results here when they exist.
+
+## October 20 extension
+
+[Generative participation](04-generative-participation.md) extends the retained plan with recognition and authority to revise, productive difference, and continuity through enactment. The existing baseline and endpoints remain intact; the extension is separately versioned. A bounded participant-authority comparison has since been implemented and run; its scope and results are recorded in the [current status](05-implementation-status.md).

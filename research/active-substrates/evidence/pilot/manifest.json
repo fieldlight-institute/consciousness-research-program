@@ -1,0 +1,30 @@
+{
+  "phase": "pilot",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "conditions": [
+    "B",
+    "B-long",
+    "C",
+    "C-no-propagation",
+    "C-reset"
+  ],
+  "budgets": [
+    24,
+    96
+  ],
+  "source_sha256": "5f54269226acd78289420336c1cf9b3acb3b6f2a4f6c89de88416ec22bd2bcfd",
+  "ticks": 3000,
+  "specification": "IMPLEMENTATION.md",
+  "status": "bounded B/C study; not full AS-01 confirmation"
+}

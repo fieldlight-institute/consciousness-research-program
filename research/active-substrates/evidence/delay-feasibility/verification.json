@@ -1,0 +1,13 @@
+{
+  "exact_delay_cases": 64,
+  "independently_verified_witnesses": 64,
+  "monotonicity_comparisons": 729,
+  "preserved_prior_artifacts": 703,
+  "links_checked": 3,
+  "sources": {
+    "SPECIFICATION.md": "80e281da4728ab0c15f73adba834b982b140c8fb7048260afef329ff6b30024b",
+    "run.py": "f03058ccab15f8292111b4b68a7ccecfa47f65725bd3b728cf2d58f37af0123e",
+    "RESULTS.md": "c12b9fab2af84cc861ecead62bdc66e0ecf5690ee3f99ab6d551d1aad77782b1",
+    "verify.py": "c45dbac2253f21339142e9445a782bfff597e7d6354b92a887253d40a9c326f6"
+  }
+}

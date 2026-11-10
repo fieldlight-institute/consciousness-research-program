@@ -1,0 +1,15 @@
+{
+  "tests_passed": 6,
+  "realized_schedules_verified": 5120,
+  "zero_delay_schedules_exact": 80,
+  "prior_research_artifacts_preserved": 653,
+  "links_verified": 5,
+  "sources": {
+    "SPECIFICATION.md": "0d0728f6f1cea9e43ef13accc437fe844174aaf2409ce67b519075629dae4be1",
+    "test_replay.py": "9857e95f1b3fed7a3b3cad2ef5490c1d192040106d36276f9699c5e924af2f45",
+    "run.py": "abfe48c7cbb2733c815690ef5d66505fb1a45532a4f876945409a4c40195fb0b",
+    "replay.py": "11d1f73c5b228ae8bd021d798747ed558f08234686d5a3ffef8f1143f839bd7c",
+    "RESULTS.md": "c699f5fbf9b8e9ff7911e714e6b75a7198a9fe355e0d519bf948d366053f3f76",
+    "verify.py": "3f8f98c00606fe45dee52c01d46d638d207fe248b3545944540ad1ca94ee5f59"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "instances": 162,
+  "counts_by_optimum": {
+    "1": 54,
+    "2": 67,
+    "3": 32,
+    "0": 9
+  },
+  "maximum_nodes": 16,
+  "demonstrations": [
+    {
+      "name": "individually feasible but competing",
+      "status": "exact",
+      "lower": 1,
+      "upper": 1
+    },
+    {
+      "name": "partial composite earns no completion",
+      "status": "exact",
+      "lower": 0,
+      "upper": 0
+    },
+    {
+      "name": "prerequisite finishes another whole job",
+      "status": "exact",
+      "lower": 2,
+      "upper": 2
+    },
+    {
+      "name": "prerequisite remains a partial job",
+      "status": "exact",
+      "lower": 1,
+      "upper": 1
+    },
+    {
+      "name": "global search exhausted",
+      "status": "bounded",
+      "lower": 0,
+      "upper": 2
+    },
+    {
+      "name": "positive witness unresolved optimum",
+      "status": "bounded",
+      "lower": 1,
+      "upper": 2
+    }
+  ]
+}
